@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 import { getBirthData } from "./utils/getBirthData";
 import { diceRoll } from "./utils/diceRoll";
+import { getGovernmentFormData } from "./utils/getGovernmentFormData";
 
 // TopoJSON-Endpoint (funktionierend)
 // world-atlas @2 liefert in geometry.id den ISO-A3-Code
@@ -9,6 +10,7 @@ const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 
 const Layout = () => {
   const [allCountries, setAllCountries] = useState();
+  const [allGovernments, setAllGovernments] = useState();
   const [selectedCountry, setSelectedCountry] = useState(null);
 
   // Würfeln-Funktion
@@ -25,8 +27,11 @@ const Layout = () => {
     getBirthData().then((countries) => {
       setAllCountries(countries);
     });
+    getGovernmentFormData().then((countries) => {
+      setAllGovernments(countries);
+    });
   }, []);
-
+  console.log(allGovernments);
   return (
     <div
       style={{
@@ -124,19 +129,29 @@ const Layout = () => {
         <aside
           style={{
             flex: 1,
-            padding: "1rem",
-            backgroundColor: "#ffffff",
-            borderLeft: "1px solid #ccc",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            fontSize: "1.2rem",
+            padding: "1rem",
+            boxSizing: "border-box",
           }}
         >
-          <div>
-            {selectedCountry
-              ? `Gewähltes Land: ${selectedCountry}`
-              : 'Klicke auf "Würfeln" um ein Land auszuwählen.'}
+          <div
+            style={{
+              background: "linear-gradient(135deg, #2c3e50, #4f5b66)",
+              color: "#ffffff",
+              padding: "2rem",
+              borderRadius: "0.5rem",
+              width: "100%",
+              boxSizing: "border-box",
+              boxShadow: "0 4px 6px rgba(0,0,0,0.3)",
+            }}
+          >
+            <p>{selectedCountry}</p>
+            <p>Placeholder line 2</p>
+            <p>Placeholder line 3</p>
+            <p>Placeholder line 4</p>
+            <p>Placeholder line 5</p>
           </div>
         </aside>
       </main>
