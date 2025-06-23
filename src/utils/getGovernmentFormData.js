@@ -1,3 +1,6 @@
+/// <reference types="vite/client" />
+// @ts-check
+
 export async function getGovernmentFormData() {
   try {
     const response = await fetch(

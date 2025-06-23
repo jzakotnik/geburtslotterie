@@ -1,3 +1,6 @@
+/// <reference types="vite/client" />
+// @ts-check
+
 export async function getBirthData() {
   try {
     const response = await fetch(
