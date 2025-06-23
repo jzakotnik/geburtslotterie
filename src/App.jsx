@@ -5,10 +5,6 @@ import { diceRoll } from "./utils/diceRoll";
 import { getGovernmentFormData } from "./utils/getGovernmentFormData";
 import Projects from "./components/Projects";
 
-// TopoJSON-Endpoint (funktionierend)
-// world-atlas @2 liefert in geometry.id den ISO-A3-Code
-//const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
-
 const Layout = () => {
   const [allCountries, setAllCountries] = useState();
   const [allGovernments, setAllGovernments] = useState();
@@ -16,19 +12,31 @@ const Layout = () => {
   const [geoData, setGeoData] = useState(null);
   const [selectedCountry, setSelectedCountry] = useState(null);
   const [selectedIncome, setSelectedIncome] = useState(0);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
-  // Würfeln-Funktion
+  // Handle viewport resize to toggle mobile layout
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const handleRoll = () => {
     if (!allCountries || allCountries.length === 0) return;
     const rolled = diceRoll(allCountries);
-    console.log("Rolled country", rolled);
     setSelectedCountry(rolled);
-    const filteredIncome = allIncomes.find((i) => i.iso_a3 == rolled.ISO_A3);
-    const germanyIncome = allIncomes.find((i) => i.iso_a3 == "DEU");
-    console.log("Filtered income", filteredIncome);
+    const filteredIncome = allIncomes.find((i) => i.iso_a3 === rolled.ISO_A3);
+    const germanyIncome = allIncomes.find((i) => i.iso_a3 === "DEU");
+
+    console.log(
+      "Calculating incomes for ",
+      rolled,
+      filteredIncome,
+      germanyIncome
+    );
     setSelectedIncome(
       Math.round((filteredIncome.income / germanyIncome.income) * 100)
-    ); //percentage of income
+    );
   };
 
   useEffect(() => {
@@ -52,15 +60,10 @@ const Layout = () => {
   }, []);
 
   useEffect(() => {
-    getBirthData().then((countries) => {
-      setAllCountries(countries);
-    });
-    getGovernmentFormData().then((countries) => {
-      setAllGovernments(countries);
-    });
+    getBirthData().then((countries) => setAllCountries(countries));
+    getGovernmentFormData().then((countries) => setAllGovernments(countries));
   }, []);
 
-  console.log(allGovernments);
   return (
     <div
       style={{
@@ -73,6 +76,7 @@ const Layout = () => {
       <header
         style={{
           display: "flex",
+          flexDirection: isMobile ? "column" : "row",
           justifyContent: "space-between",
           alignItems: "center",
           padding: "1rem",
@@ -81,15 +85,12 @@ const Layout = () => {
           fontSize: "1.5rem",
         }}
       >
-        {/* Titel */}
-        <div>Geburtslotterie</div>
-
-        {/* Würfeln-Button */}
+        <div style={{ marginBottom: isMobile ? "0.5rem" : 0 }}>
+          Geburtslotterie
+        </div>
         <button
           onClick={handleRoll}
           style={{
-            marginLeft: "1rem",
-            marginRight: "auto",
             backgroundColor: "#61dafb",
             color: "#1e1e1e",
             border: "none",
@@ -97,12 +98,11 @@ const Layout = () => {
             borderRadius: "0.25rem",
             cursor: "pointer",
             fontSize: "1rem",
+            marginBottom: isMobile ? "0.5rem" : 0,
           }}
         >
           Würfeln
         </button>
-
-        {/* GitHub-Link */}
         <a
           href="https://github.com/jzakotnik"
           target="_blank"
@@ -113,14 +113,22 @@ const Layout = () => {
         </a>
       </header>
 
-      <main style={{ display: "flex", flex: 1, minHeight: 0 }}>
+      <main
+        style={{
+          display: "flex",
+          flex: 1,
+          flexDirection: isMobile ? "column" : "row",
+          minHeight: 0,
+        }}
+      >
         <div
           style={{
             flex: 2,
             padding: "1rem",
             backgroundColor: "#f0f0f0",
-            display: "flex",
             minHeight: 0,
+            width: isMobile ? "100%" : "auto",
+            height: isMobile ? "50vh" : "100%",
           }}
         >
           <ComposableMap
@@ -130,11 +138,7 @@ const Layout = () => {
             <Geographies geography={geoData}>
               {({ geographies }) =>
                 geographies.map((geo) => {
-                  // geometry.id ist hier ISO-A3
-                  //console.log("Available iso", selectedCountry);
                   const iso = (geo.properties.name || "").toUpperCase();
-                  //console.log("ISO",iso,selectedCountry?.Country.toUpperCase());
-                  //this is the country that was rolled
                   const isSelected =
                     iso === selectedCountry?.Country.toUpperCase();
                   return (
@@ -166,6 +170,7 @@ const Layout = () => {
             justifyContent: "center",
             padding: "1rem",
             boxSizing: "border-box",
+            width: isMobile ? "100%" : "auto",
           }}
         >
           <div
@@ -181,13 +186,7 @@ const Layout = () => {
           >
             {selectedCountry ? (
               <div>
-                <p
-                  style={{
-                    background: "linear-gradient(135deg, #2c3e50, #4f5b66)",
-                    color: "#ffffff",
-                    width: "100%",
-                  }}
-                >
+                <p>
                   Glückwunsch, es ist:{" "}
                   <strong>{selectedCountry?.Country_de}</strong>
                 </p>
@@ -202,9 +201,7 @@ const Layout = () => {
 
                 <Projects iso_a3={selectedCountry.ISO_A3} />
               </div>
-            ) : (
-              ""
-            )}
+            ) : null}
           </div>
         </aside>
       </main>

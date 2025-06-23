@@ -29,22 +29,23 @@ function Projects({ iso_a3 = "" }) {
 
   return (
     <div>
-      <p>
-        Aber es gibt <strong>{filteredProjects.length}</strong> KfW Projekte
-        dort, welche das Land weiter entwickeln!
-      </p>
-
-      <p>Zum Beispiel:</p>
       {filteredProjects.length > 0 ? (
-        <ul>
-          {filteredProjects
-            .slice()
-            .sort(() => Math.random() - 0.5)
-            .slice(0, 5)
-            .map((project) => (
-              <li key={project.projnr}>{project.title}</li>
-            ))}
-        </ul>
+        <div>
+          <p>
+            Aber es gibt <strong>{filteredProjects.length}</strong> KfW Projekte
+            dort, welche das Land weiter entwickeln!
+          </p>
+          <p>Zum Beispiel:</p>{" "}
+          <ul>
+            {filteredProjects
+              .slice()
+              .sort(() => Math.random() - 0.5)
+              .slice(0, 5)
+              .map((project) => (
+                <li key={project.projnr}>{project.title}</li>
+              ))}
+          </ul>
+        </div>
       ) : (
         <div></div>
       )}
