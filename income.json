@@ -1,0 +1,1154 @@
+[
+  {
+    "country": "Albania",
+    "year": 2023,
+    "income": 7680,
+    "iso_a3": "ALB"
+  },
+  {
+    "country": "Andorra",
+    "year": 2022,
+    "income": 50150,
+    "iso_a3": "AND"
+  },
+  {
+    "country": "Austria",
+    "year": 2023,
+    "income": 55030,
+    "iso_a3": "AUT"
+  },
+  {
+    "country": "Belarus",
+    "year": 2023,
+    "income": 7790,
+    "iso_a3": "BLR"
+  },
+  {
+    "country": "Belgium",
+    "year": 2023,
+    "income": 54580,
+    "iso_a3": "BEL"
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "year": 2023,
+    "income": 8280,
+    "iso_a3": "BIH"
+  },
+  {
+    "country": "Bulgaria",
+    "year": 2023,
+    "income": 14280,
+    "iso_a3": "BGR"
+  },
+  {
+    "country": "Croatia",
+    "year": 2023,
+    "income": 20590,
+    "iso_a3": "HRV"
+  },
+  {
+    "country": "Cyprus",
+    "year": 2023,
+    "income": 32960,
+    "iso_a3": "CYP"
+  },
+  {
+    "country": "Czechia",
+    "year": 2023,
+    "income": 27370,
+    "iso_a3": "CZE"
+  },
+  {
+    "country": "Denmark",
+    "year": 2023,
+    "income": 73340,
+    "iso_a3": "DNK"
+  },
+  {
+    "country": "Estonia",
+    "year": 2023,
+    "income": 27620,
+    "iso_a3": "EST"
+  },
+  {
+    "country": "Finland",
+    "year": 2023,
+    "income": 53230,
+    "iso_a3": "FIN"
+  },
+  {
+    "country": "France",
+    "year": 2023,
+    "income": 45180,
+    "iso_a3": "FRA"
+  },
+  {
+    "country": "Germany",
+    "year": 2023,
+    "income": 54800,
+    "iso_a3": "DEU"
+  },
+  {
+    "country": "Greece",
+    "year": 2023,
+    "income": 22590,
+    "iso_a3": "GRC"
+  },
+  {
+    "country": "Hungary",
+    "year": 2023,
+    "income": 19670,
+    "iso_a3": "HUN"
+  },
+  {
+    "country": "Iceland",
+    "year": 2023,
+    "income": 80400,
+    "iso_a3": "ISL"
+  },
+  {
+    "country": "Ireland",
+    "year": 2023,
+    "income": 78970,
+    "iso_a3": "IRL"
+  },
+  {
+    "country": "Italy",
+    "year": 2023,
+    "income": 37920,
+    "iso_a3": "ITA"
+  },
+  {
+    "country": "Latvia",
+    "year": 2023,
+    "income": 22630,
+    "iso_a3": "LVA"
+  },
+  {
+    "country": "Liechtenstein",
+    "year": 2009,
+    "income": 116380,
+    "iso_a3": "LIE"
+  },
+  {
+    "country": "Lithuania",
+    "year": 2023,
+    "income": 25080,
+    "iso_a3": "LTU"
+  },
+  {
+    "country": "Luxembourg",
+    "year": 2023,
+    "income": 83980,
+    "iso_a3": "LUX"
+  },
+  {
+    "country": "Malta",
+    "year": 2023,
+    "income": 34750,
+    "iso_a3": "MLT"
+  },
+  {
+    "country": "Monaco",
+    "year": 2008,
+    "income": 186080,
+    "iso_a3": "MCO"
+  },
+  {
+    "country": "Montenegro",
+    "year": 2023,
+    "income": 11590,
+    "iso_a3": "MNE"
+  },
+  {
+    "country": "Netherlands",
+    "year": 2023,
+    "income": 62540,
+    "iso_a3": "NLD"
+  },
+  {
+    "country": "North Macedonia",
+    "year": 2023,
+    "income": 7900,
+    "iso_a3": "MKD"
+  },
+  {
+    "country": "Norway",
+    "year": 2023,
+    "income": 102910,
+    "iso_a3": "NOR"
+  },
+  {
+    "country": "Poland",
+    "year": 2023,
+    "income": 19900,
+    "iso_a3": "POL"
+  },
+  {
+    "country": "Portugal",
+    "year": 2023,
+    "income": 26150,
+    "iso_a3": "PRT"
+  },
+  {
+    "country": "Republic of Moldova",
+    "year": 2023,
+    "income": 6200,
+    "iso_a3": "MDA"
+  },
+  {
+    "country": "Romania",
+    "year": 2023,
+    "income": 16660,
+    "iso_a3": "ROU"
+  },
+  {
+    "country": "Russian Federation",
+    "year": 2023,
+    "income": 14250,
+    "iso_a3": "RUS"
+  },
+  {
+    "country": "San Marino",
+    "year": 2022,
+    "income": 53930,
+    "iso_a3": "SMR"
+  },
+  {
+    "country": "Serbia",
+    "year": 2023,
+    "income": 10760,
+    "iso_a3": "SRB"
+  },
+  {
+    "country": "Slovakia",
+    "year": 2023,
+    "income": 22790,
+    "iso_a3": "SVK"
+  },
+  {
+    "country": "Slovenia",
+    "year": 2023,
+    "income": 30860,
+    "iso_a3": "SVN"
+  },
+  {
+    "country": "Spain",
+    "year": 2023,
+    "income": 32830,
+    "iso_a3": "ESP"
+  },
+  {
+    "country": "Sweden",
+    "year": 2023,
+    "income": 60480,
+    "iso_a3": "SWE"
+  },
+  {
+    "country": "Switzerland",
+    "year": 2023,
+    "income": 95070,
+    "iso_a3": "CHE"
+  },
+  {
+    "country": "Turkey",
+    "year": 2023,
+    "income": 11730,
+    "iso_a3": "TUR"
+  },
+  {
+    "country": "Ukraine",
+    "year": 2023,
+    "income": 4950,
+    "iso_a3": "UKR"
+  },
+  {
+    "country": "United Kingdom",
+    "year": 2023,
+    "income": 47700,
+    "iso_a3": "GBR"
+  },
+  {
+    "country": "Algeria",
+    "year": 2023,
+    "income": 4950,
+    "iso_a3": "DZA"
+  },
+  {
+    "country": "Angola",
+    "year": 2023,
+    "income": 2120,
+    "iso_a3": "AGO"
+  },
+  {
+    "country": "Benin",
+    "year": 2023,
+    "income": 1390,
+    "iso_a3": "BEN"
+  },
+  {
+    "country": "Botswana",
+    "year": 2023,
+    "income": 8340,
+    "iso_a3": "BWA"
+  },
+  {
+    "country": "Burkina Faso",
+    "year": 2023,
+    "income": 860,
+    "iso_a3": "BFA"
+  },
+  {
+    "country": "Burundi",
+    "year": 2023,
+    "income": 220,
+    "iso_a3": "BDI"
+  },
+  {
+    "country": "Cabo Verde",
+    "year": 2023,
+    "income": 4780,
+    "iso_a3": "CPV"
+  },
+  {
+    "country": "Cameroon",
+    "year": 2023,
+    "income": 1690,
+    "iso_a3": "CMR"
+  },
+  {
+    "country": "Central African Republic",
+    "year": 2023,
+    "income": 530,
+    "iso_a3": "CAF"
+  },
+  {
+    "country": "Chad",
+    "year": 2023,
+    "income": 670,
+    "iso_a3": "TCD"
+  },
+  {
+    "country": "Comoros",
+    "year": 2023,
+    "income": 1610,
+    "iso_a3": "COM"
+  },
+  {
+    "country": "Congo, Republic of the",
+    "year": 2023,
+    "income": 2450,
+    "iso_a3": "COG"
+  },
+  {
+    "country": "Congo, The Dem. Republic of the",
+    "year": 2023,
+    "income": 630,
+    "iso_a3": "COD"
+  },
+  {
+    "country": "Cote d'Ivoire",
+    "year": 2023,
+    "income": 2470,
+    "iso_a3": "CIV"
+  },
+  {
+    "country": "Djibouti",
+    "year": 2023,
+    "income": 3400,
+    "iso_a3": "DJI"
+  },
+  {
+    "country": "Egypt",
+    "year": 2023,
+    "income": 3840,
+    "iso_a3": "EGY"
+  },
+  {
+    "country": "Equatorial Guinea",
+    "year": 2023,
+    "income": 4840,
+    "iso_a3": "GNQ"
+  },
+  {
+    "country": "Eritrea",
+    "year": 2014,
+    "income": 680,
+    "iso_a3": "ERI"
+  },
+  {
+    "country": "Eswatini",
+    "year": 2023,
+    "income": 3690,
+    "iso_a3": "SWZ"
+  },
+  {
+    "country": "Ethiopia",
+    "year": 2023,
+    "income": 1110,
+    "iso_a3": "ETH"
+  },
+  {
+    "country": "Gabon",
+    "year": 2023,
+    "income": 7930,
+    "iso_a3": "GAB"
+  },
+  {
+    "country": "Ghana",
+    "year": 2023,
+    "income": 2360,
+    "iso_a3": "GHA"
+  },
+  {
+    "country": "Guinea",
+    "year": 2023,
+    "income": 1350,
+    "iso_a3": "GIN"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "year": 2023,
+    "income": 940,
+    "iso_a3": "GNB"
+  },
+  {
+    "country": "Kenya",
+    "year": 2023,
+    "income": 2110,
+    "iso_a3": "KEN"
+  },
+  {
+    "country": "Lesotho",
+    "year": 2023,
+    "income": 1250,
+    "iso_a3": "LSO"
+  },
+  {
+    "country": "Liberia",
+    "year": 2023,
+    "income": 710,
+    "iso_a3": "LBR"
+  },
+  {
+    "country": "Libya",
+    "year": 2023,
+    "income": 5940,
+    "iso_a3": "LBY"
+  },
+  {
+    "country": "Madagascar",
+    "year": 2023,
+    "income": 510,
+    "iso_a3": "MDG"
+  },
+  {
+    "country": "Malawi",
+    "year": 2023,
+    "income": 600,
+    "iso_a3": "MWI"
+  },
+  {
+    "country": "Mali",
+    "year": 2023,
+    "income": 840,
+    "iso_a3": "MLI"
+  },
+  {
+    "country": "Mauritania",
+    "year": 2023,
+    "income": 2130,
+    "iso_a3": "MRT"
+  },
+  {
+    "country": "Mauritius",
+    "year": 2023,
+    "income": 11590,
+    "iso_a3": "MUS"
+  },
+  {
+    "country": "Morocco",
+    "year": 2023,
+    "income": 3760,
+    "iso_a3": "MAR"
+  },
+  {
+    "country": "Mozambique",
+    "year": 2023,
+    "income": 540,
+    "iso_a3": "MOZ"
+  },
+  {
+    "country": "Namibia",
+    "year": 2023,
+    "income": 4280,
+    "iso_a3": "NAM"
+  },
+  {
+    "country": "Niger",
+    "year": 2023,
+    "income": 620,
+    "iso_a3": "NER"
+  },
+  {
+    "country": "Nigeria",
+    "year": 2023,
+    "income": 1880,
+    "iso_a3": "NGA"
+  },
+  {
+    "country": "Rwanda",
+    "year": 2023,
+    "income": 990,
+    "iso_a3": "RWA"
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "year": 2023,
+    "income": 2580,
+    "iso_a3": "STP"
+  },
+  {
+    "country": "Senegal",
+    "year": 2023,
+    "income": 1630,
+    "iso_a3": "SEN"
+  },
+  {
+    "country": "Seychelles",
+    "year": 2023,
+    "income": 16940,
+    "iso_a3": "SYC"
+  },
+  {
+    "country": "Sierra Leone",
+    "year": 2023,
+    "income": 870,
+    "iso_a3": "SLE"
+  },
+  {
+    "country": "Somalia",
+    "year": 2023,
+    "income": 590,
+    "iso_a3": "SOM"
+  },
+  {
+    "country": "South Africa",
+    "year": 2023,
+    "income": 6480,
+    "iso_a3": "ZAF"
+  },
+  {
+    "country": "South Sudan",
+    "year": 2016,
+    "income": 460,
+    "iso_a3": "SSD"
+  },
+  {
+    "country": "Sudan",
+    "year": 2023,
+    "income": 880,
+    "iso_a3": "SDN"
+  },
+  {
+    "country": "Tanzania, United Republic of",
+    "year": 2023,
+    "income": 1220,
+    "iso_a3": "TZA"
+  },
+  {
+    "country": "The Gambia",
+    "year": 2023,
+    "income": 870,
+    "iso_a3": "GMB"
+  },
+  {
+    "country": "Togo",
+    "year": 2023,
+    "income": 1000,
+    "iso_a3": "TGO"
+  },
+  {
+    "country": "Tunisia",
+    "year": 2023,
+    "income": 3840,
+    "iso_a3": "TUN"
+  },
+  {
+    "country": "Uganda",
+    "year": 2023,
+    "income": 970,
+    "iso_a3": "UGA"
+  },
+  {
+    "country": "Zambia",
+    "year": 2023,
+    "income": 1290,
+    "iso_a3": "ZMB"
+  },
+  {
+    "country": "Zimbabwe",
+    "year": 2023,
+    "income": 2060,
+    "iso_a3": "ZWE"
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "year": 2023,
+    "income": 20200,
+    "iso_a3": "ATG"
+  },
+  {
+    "country": "Argentina",
+    "year": 2023,
+    "income": 12890,
+    "iso_a3": "ARG"
+  },
+  {
+    "country": "Barbados",
+    "year": 2023,
+    "income": 22870,
+    "iso_a3": "BRB"
+  },
+  {
+    "country": "Belize",
+    "year": 2023,
+    "income": 6890,
+    "iso_a3": "BLZ"
+  },
+  {
+    "country": "Bolivia, Plurinat. State",
+    "year": 2023,
+    "income": 3620,
+    "iso_a3": "BOL"
+  },
+  {
+    "country": "Brazil",
+    "year": 2023,
+    "income": 9280,
+    "iso_a3": "BRA"
+  },
+  {
+    "country": "Canada",
+    "year": 2023,
+    "income": 54040,
+    "iso_a3": "CAN"
+  },
+  {
+    "country": "Chile",
+    "year": 2023,
+    "income": 15800,
+    "iso_a3": "CHL"
+  },
+  {
+    "country": "Colombia",
+    "year": 2023,
+    "income": 6810,
+    "iso_a3": "COL"
+  },
+  {
+    "country": "Costa Rica",
+    "year": 2023,
+    "income": 14260,
+    "iso_a3": "CRI"
+  },
+  {
+    "country": "Cuba",
+    "year": 2019,
+    "income": 9010,
+    "iso_a3": "CUB"
+  },
+  {
+    "country": "Dominica",
+    "year": 2023,
+    "income": 9790,
+    "iso_a3": "DMA"
+  },
+  {
+    "country": "Dominican Republic",
+    "year": 2023,
+    "income": 9710,
+    "iso_a3": "DOM"
+  },
+  {
+    "country": "Ecuador",
+    "year": 2023,
+    "income": 6590,
+    "iso_a3": "ECU"
+  },
+  {
+    "country": "El Salvador",
+    "year": 2023,
+    "income": 4960,
+    "iso_a3": "SLV"
+  },
+  {
+    "country": "Grenada",
+    "year": 2023,
+    "income": 10470,
+    "iso_a3": "GRD"
+  },
+  {
+    "country": "Guatemala",
+    "year": 2023,
+    "income": 5480,
+    "iso_a3": "GTM"
+  },
+  {
+    "country": "Guyana",
+    "year": 2023,
+    "income": 13600,
+    "iso_a3": "GUY"
+  },
+  {
+    "country": "Haiti",
+    "year": 2023,
+    "income": 1760,
+    "iso_a3": "HTI"
+  },
+  {
+    "country": "Honduras",
+    "year": 2023,
+    "income": 2890,
+    "iso_a3": "HND"
+  },
+  {
+    "country": "Jamaica",
+    "year": 2023,
+    "income": 6200,
+    "iso_a3": "JAM"
+  },
+  {
+    "country": "Mexico",
+    "year": 2023,
+    "income": 11980,
+    "iso_a3": "MEX"
+  },
+  {
+    "country": "Nicaragua",
+    "year": 2023,
+    "income": 2350,
+    "iso_a3": "NIC"
+  },
+  {
+    "country": "Panama",
+    "year": 2023,
+    "income": 17870,
+    "iso_a3": "PAN"
+  },
+  {
+    "country": "Paraguay",
+    "year": 2023,
+    "income": 6220,
+    "iso_a3": "PRY"
+  },
+  {
+    "country": "Peru",
+    "year": 2023,
+    "income": 7090,
+    "iso_a3": "PER"
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "year": 2023,
+    "income": 21520,
+    "iso_a3": "KNA"
+  },
+  {
+    "country": "Saint Lucia",
+    "year": 2023,
+    "income": 12350,
+    "iso_a3": "LCA"
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "year": 2023,
+    "income": 10300,
+    "iso_a3": "VCT"
+  },
+  {
+    "country": "Suriname",
+    "year": 2023,
+    "income": 5200,
+    "iso_a3": "SUR"
+  },
+  {
+    "country": "The Bahamas",
+    "year": 2023,
+    "income": 33330,
+    "iso_a3": "BHS"
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "year": 2023,
+    "income": 21000,
+    "iso_a3": "TTO"
+  },
+  {
+    "country": "United States",
+    "year": 2023,
+    "income": 80450,
+    "iso_a3": "USA"
+  },
+  {
+    "country": "Uruguay",
+    "year": 2023,
+    "income": 19700,
+    "iso_a3": "URY"
+  },
+  {
+    "country": "Venezuela, Bol. Rep. Of",
+    "year": 2014,
+    "income": 12990,
+    "iso_a3": "VEN"
+  },
+  {
+    "country": "Afghanistan",
+    "year": 2023,
+    "income": 380,
+    "iso_a3": "AFG"
+  },
+  {
+    "country": "Armenia",
+    "year": 2023,
+    "income": 6780,
+    "iso_a3": "ARM"
+  },
+  {
+    "country": "Azerbaijan",
+    "year": 2023,
+    "income": 6660,
+    "iso_a3": "AZE"
+  },
+  {
+    "country": "Bahrain",
+    "year": 2023,
+    "income": 28300,
+    "iso_a3": "BHR"
+  },
+  {
+    "country": "Bangladesh",
+    "year": 2023,
+    "income": 2880,
+    "iso_a3": "BGD"
+  },
+  {
+    "country": "Bhutan",
+    "year": 2022,
+    "income": 3600,
+    "iso_a3": "BTN"
+  },
+  {
+    "country": "Brunei Darussalam",
+    "year": 2023,
+    "income": 34480,
+    "iso_a3": "BRN"
+  },
+  {
+    "country": "Cambodia",
+    "year": 2023,
+    "income": 2390,
+    "iso_a3": "KHM"
+  },
+  {
+    "country": "China",
+    "year": 2023,
+    "income": 13390,
+    "iso_a3": "CHN"
+  },
+  {
+    "country": "Georgia",
+    "year": 2023,
+    "income": 6710,
+    "iso_a3": "GEO"
+  },
+  {
+    "country": "India",
+    "year": 2023,
+    "income": 2540,
+    "iso_a3": "IND"
+  },
+  {
+    "country": "Indonesia",
+    "year": 2023,
+    "income": 4810,
+    "iso_a3": "IDN"
+  },
+  {
+    "country": "Iran, Islamic Republic of",
+    "year": 2023,
+    "income": 4650,
+    "iso_a3": "IRN"
+  },
+  {
+    "country": "Iraq",
+    "year": 2023,
+    "income": 5640,
+    "iso_a3": "IRQ"
+  },
+  {
+    "country": "Israel",
+    "year": 2023,
+    "income": 54650,
+    "iso_a3": "ISR"
+  },
+  {
+    "country": "Japan",
+    "year": 2023,
+    "income": 39350,
+    "iso_a3": "JPN"
+  },
+  {
+    "country": "Jordan",
+    "year": 2023,
+    "income": 4420,
+    "iso_a3": "JOR"
+  },
+  {
+    "country": "Kazakhstan",
+    "year": 2023,
+    "income": 10730,
+    "iso_a3": "KAZ"
+  },
+  {
+    "country": "Korea, Republic of",
+    "year": 2023,
+    "income": 35490,
+    "iso_a3": "KOR"
+  },
+  {
+    "country": "Kuwait",
+    "year": 2023,
+    "income": 41320,
+    "iso_a3": "KWT"
+  },
+  {
+    "country": "Kyrgyzstan",
+    "year": 2023,
+    "income": 1760,
+    "iso_a3": "KGZ"
+  },
+  {
+    "country": "Lao, PDR",
+    "year": 2023,
+    "income": 2110,
+    "iso_a3": "LAO"
+  },
+  {
+    "country": "Lebanon",
+    "year": 2023,
+    "income": 3740,
+    "iso_a3": "LBN"
+  },
+  {
+    "country": "Malaysia",
+    "year": 2023,
+    "income": 11710,
+    "iso_a3": "MYS"
+  },
+  {
+    "country": "Maldives",
+    "year": 2023,
+    "income": 11070,
+    "iso_a3": "MDV"
+  },
+  {
+    "country": "Mongolia",
+    "year": 2023,
+    "income": 4870,
+    "iso_a3": "MNG"
+  },
+  {
+    "country": "Myanmar",
+    "year": 2023,
+    "income": 1230,
+    "iso_a3": "MMR"
+  },
+  {
+    "country": "Nepal",
+    "year": 2023,
+    "income": 1430,
+    "iso_a3": "NPL"
+  },
+  {
+    "country": "Oman",
+    "year": 2023,
+    "income": 20470,
+    "iso_a3": "OMN"
+  },
+  {
+    "country": "Pakistan",
+    "year": 2023,
+    "income": 1460,
+    "iso_a3": "PAK"
+  },
+  {
+    "country": "Philippines",
+    "year": 2023,
+    "income": 4320,
+    "iso_a3": "PHL"
+  },
+  {
+    "country": "Qatar",
+    "year": 2023,
+    "income": 79430,
+    "iso_a3": "QAT"
+  },
+  {
+    "country": "Saudi Arabia",
+    "year": 2023,
+    "income": 31860,
+    "iso_a3": "SAU"
+  },
+  {
+    "country": "Singapore",
+    "year": 2023,
+    "income": 70590,
+    "iso_a3": "SGP"
+  },
+  {
+    "country": "Sri Lanka",
+    "year": 2023,
+    "income": 3540,
+    "iso_a3": "LKA"
+  },
+  {
+    "country": "Syrian Arab Republic",
+    "year": 2022,
+    "income": 710,
+    "iso_a3": "SYR"
+  },
+  {
+    "country": "Tajikistan",
+    "year": 2023,
+    "income": 1400,
+    "iso_a3": "TJK"
+  },
+  {
+    "country": "Thailand",
+    "year": 2023,
+    "income": 7200,
+    "iso_a3": "THA"
+  },
+  {
+    "country": "Timor-Leste",
+    "year": 2023,
+    "income": 2020,
+    "iso_a3": "TLS"
+  },
+  {
+    "country": "Turkmenistan",
+    "year": 2023,
+    "income": 8250,
+    "iso_a3": "TKM"
+  },
+  {
+    "country": "United Arab Emirates",
+    "year": 2023,
+    "income": 49020,
+    "iso_a3": "ARE"
+  },
+  {
+    "country": "Uzbekistan",
+    "year": 2023,
+    "income": 2700,
+    "iso_a3": "UZB"
+  },
+  {
+    "country": "Viet Nam",
+    "year": 2023,
+    "income": 4110,
+    "iso_a3": "VNM"
+  },
+  {
+    "country": "Yemen",
+    "year": 2020,
+    "income": 670,
+    "iso_a3": "YEM"
+  },
+  {
+    "country": "Australia",
+    "year": 2023,
+    "income": 63150,
+    "iso_a3": "AUS"
+  },
+  {
+    "country": "Fiji",
+    "year": 2023,
+    "income": 5680,
+    "iso_a3": "FJI"
+  },
+  {
+    "country": "Kiribati",
+    "year": 2023,
+    "income": 3740,
+    "iso_a3": "KIR"
+  },
+  {
+    "country": "Marshall Islands",
+    "year": 2023,
+    "income": 7860,
+    "iso_a3": "MHL"
+  },
+  {
+    "country": "Micronesia, Federated States of",
+    "year": 2023,
+    "income": 4250,
+    "iso_a3": "FSM"
+  },
+  {
+    "country": "Nauru",
+    "year": 2023,
+    "income": 23980,
+    "iso_a3": "NRU"
+  },
+  {
+    "country": "New Zealand",
+    "year": 2023,
+    "income": 48220,
+    "iso_a3": "NZL"
+  },
+  {
+    "country": "Palau",
+    "year": 2023,
+    "income": 14110,
+    "iso_a3": "PLW"
+  },
+  {
+    "country": "Papua New Guinea",
+    "year": 2023,
+    "income": 2820,
+    "iso_a3": "PNG"
+  },
+  {
+    "country": "Samoa",
+    "year": 2023,
+    "income": 4200,
+    "iso_a3": "WSM"
+  },
+  {
+    "country": "Solomon Islands",
+    "year": 2023,
+    "income": 2100,
+    "iso_a3": "SLB"
+  },
+  {
+    "country": "Tonga",
+    "year": 2022,
+    "income": 5260,
+    "iso_a3": "TON"
+  },
+  {
+    "country": "Tuvalu",
+    "year": 2023,
+    "income": 8770,
+    "iso_a3": "TUV"
+  },
+  {
+    "country": "Vanuatu",
+    "year": 2023,
+    "income": 3820,
+    "iso_a3": "VUT"
+  }
+]

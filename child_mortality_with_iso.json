@@ -1,0 +1,1002 @@
+[
+  {
+    "iso_a3": "MNE",
+    "country": "Montenegro",
+    "child_mortality_percent": 0.15000000000000002
+  },
+  {
+    "iso_a3": "ISL",
+    "country": "Island",
+    "child_mortality_percent": 0.2
+  },
+  {
+    "iso_a3": "EST",
+    "country": "Estland",
+    "child_mortality_percent": 0.2
+  },
+  {
+    "iso_a3": "HKG",
+    "country": "Hongkong",
+    "child_mortality_percent": 0.2
+  },
+  {
+    "iso_a3": "SGP",
+    "country": "Singapur",
+    "child_mortality_percent": 0.2
+  },
+  {
+    "iso_a3": "FIN",
+    "country": "Finnland",
+    "child_mortality_percent": 0.2
+  },
+  {
+    "iso_a3": "SVN",
+    "country": "Slowenien",
+    "child_mortality_percent": 0.2
+  },
+  {
+    "iso_a3": "SWE",
+    "country": "Schweden",
+    "child_mortality_percent": 0.25
+  },
+  {
+    "iso_a3": "JPN",
+    "country": "Japan",
+    "child_mortality_percent": 0.25
+  },
+  {
+    "iso_a3": "NOR",
+    "country": "Norwegen",
+    "child_mortality_percent": 0.2
+  },
+  {
+    "iso_a3": "CYP",
+    "country": "Zypern",
+    "child_mortality_percent": 0.3
+  },
+  {
+    "iso_a3": "BLR",
+    "country": "Belarus",
+    "child_mortality_percent": 0.3
+  },
+  {
+    "iso_a3": "ITA",
+    "country": "Italien",
+    "child_mortality_percent": 0.3
+  },
+  {
+    "iso_a3": "IRL",
+    "country": "Irland",
+    "child_mortality_percent": 0.3
+  },
+  {
+    "iso_a3": "CZE",
+    "country": "Tschechien",
+    "child_mortality_percent": 0.3
+  },
+  {
+    "iso_a3": null,
+    "country": "Südkorea",
+    "child_mortality_percent": 0.3
+  },
+  {
+    "iso_a3": "ESP",
+    "country": "Spanien",
+    "child_mortality_percent": 0.3
+  },
+  {
+    "iso_a3": "SMR",
+    "country": "San Marino",
+    "child_mortality_percent": 0.25
+  },
+  {
+    "iso_a3": "MAC",
+    "country": "Macau",
+    "child_mortality_percent": 0.3
+  },
+  {
+    "iso_a3": "DNK",
+    "country": "Dänemark",
+    "child_mortality_percent": 0.3
+  },
+  {
+    "iso_a3": "PRT",
+    "country": "Portugal",
+    "child_mortality_percent": 0.3
+  },
+  {
+    "iso_a3": "AUS",
+    "country": "Australien",
+    "child_mortality_percent": 0.35
+  },
+  {
+    "iso_a3": "LTU",
+    "country": "Litauen",
+    "child_mortality_percent": 0.3
+  },
+  {
+    "iso_a3": "AUT",
+    "country": "Österreich",
+    "child_mortality_percent": 0.4
+  },
+  {
+    "iso_a3": "DEU",
+    "country": "Deutschland",
+    "child_mortality_percent": 0.4
+  },
+  {
+    "iso_a3": "CHE",
+    "country": "Schweiz",
+    "child_mortality_percent": 0.4
+  },
+  {
+    "iso_a3": "ISR",
+    "country": "Israel",
+    "child_mortality_percent": 0.4
+  },
+  {
+    "iso_a3": "BEL",
+    "country": "Belgien",
+    "child_mortality_percent": 0.4
+  },
+  {
+    "iso_a3": "LVA",
+    "country": "Lettland",
+    "child_mortality_percent": 0.4
+  },
+  {
+    "iso_a3": "GRC",
+    "country": "Griechenland",
+    "child_mortality_percent": 0.4
+  },
+  {
+    "iso_a3": "POL",
+    "country": "Polen",
+    "child_mortality_percent": 0.4
+  },
+  {
+    "iso_a3": "NLD",
+    "country": "Niederlande",
+    "child_mortality_percent": 0.4
+  },
+  {
+    "iso_a3": "GBR",
+    "country": "Vereinigtes Königreich",
+    "child_mortality_percent": 0.4
+  },
+  {
+    "iso_a3": "HUN",
+    "country": "Ungarn",
+    "child_mortality_percent": 0.4
+  },
+  {
+    "iso_a3": "MCO",
+    "country": "Monaco",
+    "child_mortality_percent": 0.35
+  },
+  {
+    "iso_a3": "FRA",
+    "country": "Frankreich",
+    "child_mortality_percent": 0.4
+  },
+  {
+    "iso_a3": "MLT",
+    "country": "Malta",
+    "child_mortality_percent": 0.55
+  },
+  {
+    "iso_a3": "TWN",
+    "country": "Taiwan",
+    "child_mortality_percent": 0.4
+  },
+  {
+    "iso_a3": "NZL",
+    "country": "Neuseeland",
+    "child_mortality_percent": 0.5
+  },
+  {
+    "iso_a3": "RUS",
+    "country": "Russland",
+    "child_mortality_percent": 0.5
+  },
+  {
+    "iso_a3": "CAN",
+    "country": "Kanada",
+    "child_mortality_percent": 0.5
+  },
+  {
+    "iso_a3": "CUB",
+    "country": "Kuba",
+    "child_mortality_percent": 0.5
+  },
+  {
+    "iso_a3": "HRV",
+    "country": "Kroatien",
+    "child_mortality_percent": 0.5
+  },
+  {
+    "iso_a3": "LUX",
+    "country": "Luxemburg",
+    "child_mortality_percent": 0.4
+  },
+  {
+    "iso_a3": "QAT",
+    "country": "Katar",
+    "child_mortality_percent": 0.6
+  },
+  {
+    "iso_a3": "BIH",
+    "country": "Bosnien und Herzegowina",
+    "child_mortality_percent": 0.6
+  },
+  {
+    "iso_a3": "URY",
+    "country": "Uruguay",
+    "child_mortality_percent": 0.6
+  },
+  {
+    "iso_a3": "CHL",
+    "country": "Chile",
+    "child_mortality_percent": 0.6499999999999999
+  },
+  {
+    "iso_a3": "SRB",
+    "country": "Serbien",
+    "child_mortality_percent": 0.6
+  },
+  {
+    "iso_a3": "SVK",
+    "country": "Slowakei",
+    "child_mortality_percent": 0.6
+  },
+  {
+    "iso_a3": "MDV",
+    "country": "Malediven",
+    "child_mortality_percent": 0.6499999999999999
+  },
+  {
+    "iso_a3": "LIE",
+    "country": "Liechtenstein",
+    "child_mortality_percent": 0.6
+  },
+  {
+    "iso_a3": "BGR",
+    "country": "Bulgarien",
+    "child_mortality_percent": 0.6
+  },
+  {
+    "iso_a3": "ATG",
+    "country": "Antigua und Barbuda",
+    "child_mortality_percent": 0.6
+  },
+  {
+    "iso_a3": "USA",
+    "country": "Vereinigte Staaten",
+    "child_mortality_percent": 0.6
+  },
+  {
+    "iso_a3": "UKR",
+    "country": "Ukraine",
+    "child_mortality_percent": 0.75
+  },
+  {
+    "iso_a3": "ARE",
+    "country": "Vereinigte Arabische Emirate",
+    "child_mortality_percent": 0.7
+  },
+  {
+    "iso_a3": "ROU",
+    "country": "Rumänien",
+    "child_mortality_percent": 0.7
+  },
+  {
+    "iso_a3": "AND",
+    "country": "Andorra",
+    "child_mortality_percent": 0.5
+  },
+  {
+    "iso_a3": "LKA",
+    "country": "Sri Lanka",
+    "child_mortality_percent": 0.7
+  },
+  {
+    "iso_a3": "BHR",
+    "country": "Bahrain",
+    "child_mortality_percent": 0.7
+  },
+  {
+    "iso_a3": "LBN",
+    "country": "Libanon",
+    "child_mortality_percent": 0.7
+  },
+  {
+    "iso_a3": "MKD",
+    "country": "Nordmazedonien",
+    "child_mortality_percent": 0.6499999999999999
+  },
+  {
+    "iso_a3": "CHN",
+    "country": "Volksrepublik China",
+    "child_mortality_percent": 0.85
+  },
+  {
+    "iso_a3": "SAU",
+    "country": "Saudi-Arabien",
+    "child_mortality_percent": 0.7
+  },
+  {
+    "iso_a3": "SRB",
+    "country": "Kosovo",
+    "child_mortality_percent": 0.7
+  },
+  {
+    "iso_a3": "PRI",
+    "country": "Puerto Rico",
+    "child_mortality_percent": 0.8
+  },
+  {
+    "iso_a3": "CRI",
+    "country": "Costa Rica",
+    "child_mortality_percent": 0.8
+  },
+  {
+    "iso_a3": "THA",
+    "country": "Thailand",
+    "child_mortality_percent": 0.8500000000000001
+  },
+  {
+    "iso_a3": "MYS",
+    "country": "Malaysia",
+    "child_mortality_percent": 0.9
+  },
+  {
+    "iso_a3": "TUR",
+    "country": "Türkei",
+    "child_mortality_percent": 0.95
+  },
+  {
+    "iso_a3": "GEO",
+    "country": "Georgien",
+    "child_mortality_percent": 0.9
+  },
+  {
+    "iso_a3": "KWT",
+    "country": "Kuwait",
+    "child_mortality_percent": 0.9
+  },
+  {
+    "iso_a3": "KAZ",
+    "country": "Kasachstan",
+    "child_mortality_percent": 1.0
+  },
+  {
+    "iso_a3": "ALB",
+    "country": "Albanien",
+    "child_mortality_percent": 1.0
+  },
+  {
+    "iso_a3": "ARM",
+    "country": "Armenien",
+    "child_mortality_percent": 1.05
+  },
+  {
+    "iso_a3": "ARG",
+    "country": "Argentinien",
+    "child_mortality_percent": 1.0
+  },
+  {
+    "iso_a3": "KNA",
+    "country": "St. Kitts und Nevis",
+    "child_mortality_percent": 1.3
+  },
+  {
+    "iso_a3": "LBY",
+    "country": "Libyen",
+    "child_mortality_percent": 1.1
+  },
+  {
+    "iso_a3": "BRN",
+    "country": "Brunei",
+    "child_mortality_percent": 1.15
+  },
+  {
+    "iso_a3": "OMN",
+    "country": "Oman",
+    "child_mortality_percent": 1.1
+  },
+  {
+    "iso_a3": "TON",
+    "country": "Tonga",
+    "child_mortality_percent": 1.1
+  },
+  {
+    "iso_a3": "BLZ",
+    "country": "Belize",
+    "child_mortality_percent": 1.2
+  },
+  {
+    "iso_a3": "BRB",
+    "country": "Barbados",
+    "child_mortality_percent": 1.2
+  },
+  {
+    "iso_a3": "BHS",
+    "country": "Bahamas",
+    "child_mortality_percent": 1.25
+  },
+  {
+    "iso_a3": "PER",
+    "country": "Peru",
+    "child_mortality_percent": 1.25
+  },
+  {
+    "iso_a3": "ECU",
+    "country": "Ecuador",
+    "child_mortality_percent": 1.25
+  },
+  {
+    "iso_a3": "IRN",
+    "country": "Iran",
+    "child_mortality_percent": 1.3
+  },
+  {
+    "iso_a3": "SLV",
+    "country": "El Salvador",
+    "child_mortality_percent": 1.3
+  },
+  {
+    "iso_a3": "COL",
+    "country": "Kolumbien",
+    "child_mortality_percent": 1.3
+  },
+  {
+    "iso_a3": "UZB",
+    "country": "Usbekistan",
+    "child_mortality_percent": 1.35
+  },
+  {
+    "iso_a3": "JAM",
+    "country": "Jamaika",
+    "child_mortality_percent": 1.3
+  },
+  {
+    "iso_a3": "MEX",
+    "country": "Mexiko",
+    "child_mortality_percent": 1.4
+  },
+  {
+    "iso_a3": "CPV",
+    "country": "Kap Verde",
+    "child_mortality_percent": 1.4
+  },
+  {
+    "iso_a3": "SYC",
+    "country": "Seychellen",
+    "child_mortality_percent": 1.4
+  },
+  {
+    "iso_a3": "DMA",
+    "country": "Dominica",
+    "child_mortality_percent": 2.45
+  },
+  {
+    "iso_a3": "VCT",
+    "country": "St. Vincent und die Grenadinen",
+    "child_mortality_percent": 1.4
+  },
+  {
+    "iso_a3": "MDA",
+    "country": "Moldau",
+    "child_mortality_percent": 1.45
+  },
+  {
+    "iso_a3": "JOR",
+    "country": "Jordanien",
+    "child_mortality_percent": 1.45
+  },
+  {
+    "iso_a3": "LCA",
+    "country": "St. Lucia",
+    "child_mortality_percent": 1.9
+  },
+  {
+    "iso_a3": "BRA",
+    "country": "Brasilien",
+    "child_mortality_percent": 1.45
+  },
+  {
+    "iso_a3": "STP",
+    "country": "São Tomé und Príncipe",
+    "child_mortality_percent": 1.5
+  },
+  {
+    "iso_a3": "MNG",
+    "country": "Mongolei",
+    "child_mortality_percent": 1.5
+  },
+  {
+    "iso_a3": "NIC",
+    "country": "Nicaragua",
+    "child_mortality_percent": 1.55
+  },
+  {
+    "iso_a3": null,
+    "country": "Nordkorea",
+    "child_mortality_percent": 1.65
+  },
+  {
+    "iso_a3": "GRD",
+    "country": "Grenada",
+    "child_mortality_percent": 1.6
+  },
+  {
+    "iso_a3": "HND",
+    "country": "Honduras",
+    "child_mortality_percent": 1.6
+  },
+  {
+    "iso_a3": "TUN",
+    "country": "Tunesien",
+    "child_mortality_percent": 1.65
+  },
+  {
+    "iso_a3": "PSE",
+    "country": "Palästina",
+    "child_mortality_percent": 1.65
+  },
+  {
+    "iso_a3": "TTO",
+    "country": "Trinidad und Tobago",
+    "child_mortality_percent": 1.7
+  },
+  {
+    "iso_a3": "WSM",
+    "country": "Samoa",
+    "child_mortality_percent": 1.7
+  },
+  {
+    "iso_a3": "KGZ",
+    "country": "Kirgisistan",
+    "child_mortality_percent": 1.75
+  },
+  {
+    "iso_a3": "MUS",
+    "country": "Mauritius",
+    "child_mortality_percent": 1.7
+  },
+  {
+    "iso_a3": "SUR",
+    "country": "Suriname",
+    "child_mortality_percent": 1.75
+  },
+  {
+    "iso_a3": "PAN",
+    "country": "Panama",
+    "child_mortality_percent": 1.5499999999999998
+  },
+  {
+    "iso_a3": "PLW",
+    "country": "Palau",
+    "child_mortality_percent": 1.7
+  },
+  {
+    "iso_a3": "MAR",
+    "country": "Marokko",
+    "child_mortality_percent": 1.85
+  },
+  {
+    "iso_a3": "PRY",
+    "country": "Paraguay",
+    "child_mortality_percent": 1.85
+  },
+  {
+    "iso_a3": "AZE",
+    "country": "Aserbaidschan",
+    "child_mortality_percent": 1.9
+  },
+  {
+    "iso_a3": "VEN",
+    "country": "Venezuela",
+    "child_mortality_percent": 2.15
+  },
+  {
+    "iso_a3": "SLB",
+    "country": "Salomonen",
+    "child_mortality_percent": 1.9
+  },
+  {
+    "iso_a3": "EGY",
+    "country": "Ägypten",
+    "child_mortality_percent": 1.95
+  },
+  {
+    "iso_a3": "NRU",
+    "country": "Nauru",
+    "child_mortality_percent": 2.4
+  },
+  {
+    "iso_a3": "VNM",
+    "country": "Vietnam",
+    "child_mortality_percent": 2.1
+  },
+  {
+    "iso_a3": "TUV",
+    "country": "Tuvalu",
+    "child_mortality_percent": 2.1500000000000004
+  },
+  {
+    "iso_a3": "SYR",
+    "country": "Syrien",
+    "child_mortality_percent": 2.2
+  },
+  {
+    "iso_a3": "DZA",
+    "country": "Algerien",
+    "child_mortality_percent": 2.25
+  },
+  {
+    "iso_a3": "IDN",
+    "country": "Indonesien",
+    "child_mortality_percent": 2.25
+  },
+  {
+    "iso_a3": "GTM",
+    "country": "Guatemala",
+    "child_mortality_percent": 2.3499999999999996
+  },
+  {
+    "iso_a3": null,
+    "country": "Föderierte Staaten von Mikronesien",
+    "child_mortality_percent": 2.45
+  },
+  {
+    "iso_a3": "VUT",
+    "country": "Vanuatu",
+    "child_mortality_percent": 2.45
+  },
+  {
+    "iso_a3": "IRQ",
+    "country": "Irak",
+    "child_mortality_percent": 2.5
+  },
+  {
+    "iso_a3": "KHM",
+    "country": "Kambodscha",
+    "child_mortality_percent": 2.55
+  },
+  {
+    "iso_a3": "PHL",
+    "country": "Philippinen",
+    "child_mortality_percent": 2.55
+  },
+  {
+    "iso_a3": "BTN",
+    "country": "Bhutan",
+    "child_mortality_percent": 2.7
+  },
+  {
+    "iso_a3": "NPL",
+    "country": "Nepal",
+    "child_mortality_percent": 2.75
+  },
+  {
+    "iso_a3": "GUY",
+    "country": "Guyana",
+    "child_mortality_percent": 2.8
+  },
+  {
+    "iso_a3": "BGD",
+    "country": "Bangladesch",
+    "child_mortality_percent": 2.8499999999999996
+  },
+  {
+    "iso_a3": "FJI",
+    "country": "Fidschi",
+    "child_mortality_percent": 2.75
+  },
+  {
+    "iso_a3": "MHL",
+    "country": "Marshallinseln",
+    "child_mortality_percent": 3.05
+  },
+  {
+    "iso_a3": "ESH",
+    "country": "Westsahara",
+    "child_mortality_percent": 3.1
+  },
+  {
+    "iso_a3": "IND",
+    "country": "Indien",
+    "child_mortality_percent": 3.2
+  },
+  {
+    "iso_a3": "TJK",
+    "country": "Tadschikistan",
+    "child_mortality_percent": 3.1500000000000004
+  },
+  {
+    "iso_a3": "DOM",
+    "country": "Dominikanische Republik",
+    "child_mortality_percent": 3.3499999999999996
+  },
+  {
+    "iso_a3": "ZAF",
+    "country": "Südafrika",
+    "child_mortality_percent": 3.35
+  },
+  {
+    "iso_a3": "BOL",
+    "country": "Bolivien",
+    "child_mortality_percent": 3.05
+  },
+  {
+    "iso_a3": "SEN",
+    "country": "Senegal",
+    "child_mortality_percent": 3.75
+  },
+  {
+    "iso_a3": "ERI",
+    "country": "Eritrea",
+    "child_mortality_percent": 3.8499999999999996
+  },
+  {
+    "iso_a3": "MWI",
+    "country": "Malawi",
+    "child_mortality_percent": 3.8499999999999996
+  },
+  {
+    "iso_a3": "NAM",
+    "country": "Namibia",
+    "child_mortality_percent": 3.95
+  },
+  {
+    "iso_a3": "RWA",
+    "country": "Ruanda",
+    "child_mortality_percent": 4.0
+  },
+  {
+    "iso_a3": "GAB",
+    "country": "Gabun",
+    "child_mortality_percent": 4.05
+  },
+  {
+    "iso_a3": "TKM",
+    "country": "Turkmenistan",
+    "child_mortality_percent": 4.15
+  },
+  {
+    "iso_a3": "KEN",
+    "country": "Kenia",
+    "child_mortality_percent": 4.15
+  },
+  {
+    "iso_a3": "TLS",
+    "country": "Osttimor",
+    "child_mortality_percent": 4.15
+  },
+  {
+    "iso_a3": "UGA",
+    "country": "Uganda",
+    "child_mortality_percent": 4.25
+  },
+  {
+    "iso_a3": "PNG",
+    "country": "Papua-Neuguinea",
+    "child_mortality_percent": 4.300000000000001
+  },
+  {
+    "iso_a3": "LAO",
+    "country": "Laos",
+    "child_mortality_percent": 4.35
+  },
+  {
+    "iso_a3": "MMR",
+    "country": "Myanmar",
+    "child_mortality_percent": 4.35
+  },
+  {
+    "iso_a3": "COG",
+    "country": "Republik Kongo",
+    "child_mortality_percent": 4.4
+  },
+  {
+    "iso_a3": "GHA",
+    "country": "Ghana",
+    "child_mortality_percent": 4.4
+  },
+  {
+    "iso_a3": "BWA",
+    "country": "Botswana",
+    "child_mortality_percent": 4.5
+  },
+  {
+    "iso_a3": "TZA",
+    "country": "Tansania",
+    "child_mortality_percent": 4.75
+  },
+  {
+    "iso_a3": "ETH",
+    "country": "Äthiopien",
+    "child_mortality_percent": 4.800000000000001
+  },
+  {
+    "iso_a3": "KIR",
+    "country": "Kiribati",
+    "child_mortality_percent": 4.9
+  },
+  {
+    "iso_a3": "GMB",
+    "country": "Gambia",
+    "child_mortality_percent": 4.85
+  },
+  {
+    "iso_a3": "MDG",
+    "country": "Madagaskar",
+    "child_mortality_percent": 4.95
+  },
+  {
+    "iso_a3": "SWZ",
+    "country": "Eswatini",
+    "child_mortality_percent": 4.9
+  },
+  {
+    "iso_a3": "ZWE",
+    "country": "Simbabwe",
+    "child_mortality_percent": 5.300000000000001
+  },
+  {
+    "iso_a3": "BDI",
+    "country": "Burundi",
+    "child_mortality_percent": 5.300000000000001
+  },
+  {
+    "iso_a3": "DJI",
+    "country": "Dschibuti",
+    "child_mortality_percent": 5.5
+  },
+  {
+    "iso_a3": "SDN",
+    "country": "Sudan",
+    "child_mortality_percent": 5.6
+  },
+  {
+    "iso_a3": "ZMB",
+    "country": "Sambia",
+    "child_mortality_percent": 5.9
+  },
+  {
+    "iso_a3": "AFG",
+    "country": "Afghanistan",
+    "child_mortality_percent": 5.8
+  },
+  {
+    "iso_a3": "COM",
+    "country": "Komoren",
+    "child_mortality_percent": 6.0
+  },
+  {
+    "iso_a3": "HTI",
+    "country": "Haiti",
+    "child_mortality_percent": 6.05
+  },
+  {
+    "iso_a3": "MRT",
+    "country": "Mauretanien",
+    "child_mortality_percent": 6.6
+  },
+  {
+    "iso_a3": "YEM",
+    "country": "Jemen",
+    "child_mortality_percent": 6.1
+  },
+  {
+    "iso_a3": "TGO",
+    "country": "Togo",
+    "child_mortality_percent": 6.300000000000001
+  },
+  {
+    "iso_a3": "PAK",
+    "country": "Pakistan",
+    "child_mortality_percent": 6.4
+  },
+  {
+    "iso_a3": "MOZ",
+    "country": "Mosambik",
+    "child_mortality_percent": 6.949999999999999
+  },
+  {
+    "iso_a3": "AGO",
+    "country": "Angola",
+    "child_mortality_percent": 7.050000000000001
+  },
+  {
+    "iso_a3": "CMR",
+    "country": "Kamerun",
+    "child_mortality_percent": 7.1
+  },
+  {
+    "iso_a3": "GNB",
+    "country": "Guinea-Bissau",
+    "child_mortality_percent": 7.550000000000001
+  },
+  {
+    "iso_a3": "NER",
+    "country": "Niger",
+    "child_mortality_percent": 7.65
+  },
+  {
+    "iso_a3": "LBR",
+    "country": "Liberia",
+    "child_mortality_percent": 7.65
+  },
+  {
+    "iso_a3": "CIV",
+    "country": "Elfenbeinküste",
+    "child_mortality_percent": 7.699999999999999
+  },
+  {
+    "iso_a3": "GNQ",
+    "country": "Äquatorialguinea",
+    "child_mortality_percent": 7.75
+  },
+  {
+    "iso_a3": null,
+    "country": "Demokratische Republik Kongo",
+    "child_mortality_percent": 8.0
+  },
+  {
+    "iso_a3": "BFA",
+    "country": "Burkina Faso",
+    "child_mortality_percent": 8.4
+  },
+  {
+    "iso_a3": "BEN",
+    "country": "Benin",
+    "child_mortality_percent": 8.5
+  },
+  {
+    "iso_a3": "LSO",
+    "country": "Lesotho",
+    "child_mortality_percent": 8.85
+  },
+  {
+    "iso_a3": "MLI",
+    "country": "Mali",
+    "child_mortality_percent": 8.95
+  },
+  {
+    "iso_a3": "GIN",
+    "country": "Guinea",
+    "child_mortality_percent": 9.45
+  },
+  {
+    "iso_a3": "SLE",
+    "country": "Sierra Leone",
+    "child_mortality_percent": 10.100000000000001
+  },
+  {
+    "iso_a3": "SSD",
+    "country": "Südsudan",
+    "child_mortality_percent": 9.9
+  },
+  {
+    "iso_a3": "CAF",
+    "country": "Zentralafrikanische Republik",
+    "child_mortality_percent": 10.25
+  },
+  {
+    "iso_a3": "TCD",
+    "country": "Tschad",
+    "child_mortality_percent": 10.85
+  },
+  {
+    "iso_a3": "NGA",
+    "country": "Nigeria",
+    "child_mortality_percent": 11.25
+  },
+  {
+    "iso_a3": "SOM",
+    "country": "Somalia",
+    "child_mortality_percent": 11.35
+  }
+]

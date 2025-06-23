@@ -1,0 +1,946 @@
+{
+  "AFG": {
+    "government_form_en": "theocratic; the United States does not recognize the Taliban Government",
+    "government_form_de": "theokratisch; die Vereinigten Staaten erkennen die Taliban-Regierung nicht an"
+  },
+  "ALB": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "DZA": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "ASM": {
+    "government_form_en": "unincorporated, unorganized Territory of the US with local self-government; republican form of territorial government with separate executive, legislative, and judicial branches",
+    "government_form_de": "uninkorporiertes, unorganisiertes US-Territorium mit lokaler Selbstverwaltung; republikanische Form der Territorialregierung mit getrennten Exekutiv-, Legislativ- und Judikativzweigen"
+  },
+  "AND": {
+    "government_form_en": "parliamentary democracy (since March 1993) that retains its chiefs of state in the form of a co-principality; the two princes are the President of France and Bishop of Seu d'Urgell, Spain",
+    "government_form_de": "parlamentarische Demokratie (seit März 1993) mit gemeinsamer Staatsführung; die beiden Fürsten sind der Präsident Frankreichs und der Bischof von Seu d'Urgell (Spanien)"
+  },
+  "AGO": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "AIA": {
+    "government_form_en": "parliamentary democracy (House of Assembly); self-governing overseas territory of the UK",
+    "government_form_de": "parlamentarische Demokratie (House of Assembly); selbstverwaltetes britisches Überseegebiet"
+  },
+  "ATA": {
+    "government_form_en": "Antarctic Treaty System",
+    "government_form_de": "Antarktis-Vertragssystem"
+  },
+  "ATG": {
+    "government_form_en": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+    "government_form_de": "parlamentarische Demokratie unter einer konstitutionellen Monarchie; ein Commonwealth Realm"
+  },
+  "ARG": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "ARM": {
+    "government_form_en": "parliamentary democracy",
+    "government_form_de": "parlamentarische Demokratie"
+  },
+  "ABW": {
+    "government_form_en": "parliamentary democracy; part of the Kingdom of the Netherlands",
+    "government_form_de": "parlamentarische Demokratie; Teil des Königreichs der Niederlande"
+  },
+  "AUS": {
+    "government_form_en": "federal parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+    "government_form_de": "föderale parlamentarische Demokratie unter einer konstitutionellen Monarchie; ein Commonwealth Realm"
+  },
+  "AUT": {
+    "government_form_en": "federal parliamentary republic",
+    "government_form_de": "föderale parlamentarische Republik"
+  },
+  "AZE": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "BHS": {
+    "government_form_en": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+    "government_form_de": "parlamentarische Demokratie unter einer konstitutionellen Monarchie; ein Commonwealth Realm"
+  },
+  "BHR": {
+    "government_form_en": "constitutional monarchy",
+    "government_form_de": "konstitutionelle Monarchie"
+  },
+  "BGD": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "BRB": {
+    "government_form_en": "parliamentary republic; a Commonwealth realm",
+    "government_form_de": "parlamentarische Republik; ein Commonwealth Realm"
+  },
+  "BLR": {
+    "government_form_en": "presidential republic in name, although in fact a dictatorship",
+    "government_form_de": "präsidiale Republik dem Namen nach, tatsächlich jedoch eine Diktatur"
+  },
+  "BEL": {
+    "government_form_en": "federal parliamentary democracy under a constitutional monarchy",
+    "government_form_de": "föderale parlamentarische Demokratie unter einer konstitutionellen Monarchie"
+  },
+  "BLZ": {
+    "government_form_en": "parliamentary democracy (National Assembly) under a constitutional monarchy; a Commonwealth realm",
+    "government_form_de": "parlamentarische Demokratie (Nationalversammlung) unter einer konstitutionellen Monarchie; ein Commonwealth Realm"
+  },
+  "BEN": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "BMU": {
+    "government_form_en": "Overseas Territory of the UK with limited self-government; parliamentary democracy",
+    "government_form_de": "britisches Überseegebiet mit begrenzter Selbstverwaltung; parlamentarische Demokratie"
+  },
+  "BTN": {
+    "government_form_en": "constitutional monarchy",
+    "government_form_de": "konstitutionelle Monarchie"
+  },
+  "BOL": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "BIH": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "BWA": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "BRA": {
+    "government_form_en": "federal presidential republic",
+    "government_form_de": "föderale präsidiale Republik"
+  },
+  "VGB": {
+    "government_form_en": "Overseas Territory of the UK with limited self-government; parliamentary democracy",
+    "government_form_de": "britisches Überseegebiet mit begrenzter Selbstverwaltung; parlamentarische Demokratie"
+  },
+  "BRN": {
+    "government_form_en": "absolute monarchy or sultanate",
+    "government_form_de": "absolute Monarchie oder Sultanat"
+  },
+  "BGR": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "BFA": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "MMR": {
+    "government_form_en": "military regime",
+    "government_form_de": "Militärregime"
+  },
+  "BDI": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "CPV": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "KHM": {
+    "government_form_en": "parliamentary constitutional monarchy",
+    "government_form_de": "parlamentarische konstitutionelle Monarchie"
+  },
+  "CMR": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "CAN": {
+    "government_form_en": "federal parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+    "government_form_de": "föderale parlamentarische Demokratie unter einer konstitutionellen Monarchie; ein Commonwealth Realm"
+  },
+  "CYM": {
+    "government_form_en": "parliamentary democracy; self-governing overseas territory of the UK",
+    "government_form_de": "parlamentarische Demokratie; selbstverwaltetes britisches Überseegebiet"
+  },
+  "CAF": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "TCD": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "CHL": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "CHN": {
+    "government_form_en": "communist party-led state",
+    "government_form_de": "kommunistisches Einparteienregime"
+  },
+  "CXR": {
+    "government_form_en": "non-self-governing overseas territory of Australia",
+    "government_form_de": "nicht selbstverwaltetes australisches Überseegebiet"
+  },
+  "CCK": {
+    "government_form_en": "non-self-governing overseas territory of Australia",
+    "government_form_de": "nicht selbstverwaltetes australisches Überseegebiet"
+  },
+  "COL": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "COM": {
+    "government_form_en": "federal presidential republic",
+    "government_form_de": "föderale präsidiale Republik"
+  },
+  "COD": {
+    "government_form_en": "semi-presidential republic",
+    "government_form_de": "semi-präsidentielle Republik"
+  },
+  "COG": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "COK": {
+    "government_form_en": "parliamentary democracy",
+    "government_form_de": "parlamentarische Demokratie"
+  },
+  "CRI": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "CIV": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "HRV": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "CUB": {
+    "government_form_en": "communist state",
+    "government_form_de": "kommunistischer Staat"
+  },
+  "CUW": {
+    "government_form_en": "parliamentary democracy",
+    "government_form_de": "parlamentarische Demokratie"
+  },
+  "CYP": {
+    "government_form_en": "presidential republic; self-declared \"Turkish Republic of Northern Cyprus\" (TRNC) - parliamentary republic with enhanced presidency",
+    "government_form_de": "präsidiale Republik; selbsternannte \"Türkische Republik Nordzypern\" (TRNZ) – parlamentarische Republik mit erweitertem Präsidentenamt"
+  },
+  "CZE": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "DNK": {
+    "government_form_en": "parliamentary constitutional monarchy",
+    "government_form_de": "parlamentarische konstitutionelle Monarchie"
+  },
+  "DJI": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "DMA": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "DOM": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "ECU": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "EGY": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "SLV": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "GNQ": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "ERI": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "EST": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "SWZ": {
+    "government_form_en": "absolute monarchy",
+    "government_form_de": "absolute Monarchie"
+  },
+  "ETH": {
+    "government_form_en": "federal parliamentary republic",
+    "government_form_de": "föderale parlamentarische Republik"
+  },
+  "EUU": {
+    "government_form_en": "hybrid intergovernmental and supranational organization",
+    "government_form_de": "hybride intergouvernementale und supranationale Organisation"
+  },
+  "FLK": {
+    "government_form_en": "parliamentary democracy (Legislative Assembly); self-governing overseas territory of the UK",
+    "government_form_de": "parlamentarische Demokratie (Legislative Assembly); selbstverwaltetes britisches Überseegebiet"
+  },
+  "FRO": {
+    "government_form_en": "parliamentary democracy (Faroese Parliament); part of the Kingdom of Denmark",
+    "government_form_de": "parlamentarische Demokratie (Färöisches Parlament); Teil des Königreichs Dänemark"
+  },
+  "FJI": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "FIN": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "FRA": {
+    "government_form_en": "semi-presidential republic",
+    "government_form_de": "semi-präsidentielle Republik"
+  },
+  "PYF": {
+    "government_form_en": "parliamentary democracy (Assembly of French Polynesia); an overseas collectivity of France",
+    "government_form_de": "parlamentarische Demokratie (Versammlung Französisch-Polynesiens); französisches Überseeterritorium"
+  },
+  "GAB": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "GMB": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "GEO": {
+    "government_form_en": "semi-presidential republic",
+    "government_form_de": "semi-präsidentielle Republik"
+  },
+  "DEU": {
+    "government_form_en": "federal parliamentary republic",
+    "government_form_de": "föderale parlamentarische Republik"
+  },
+  "GHA": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "GIB": {
+    "government_form_en": "parliamentary democracy (Parliament); self-governing overseas territory of the UK",
+    "government_form_de": "parlamentarische Demokratie (Parlament); selbstverwaltetes britisches Überseegebiet"
+  },
+  "GRC": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "GRL": {
+    "government_form_en": "parliamentary democracy (Parliament of Greenland or Inatsisartut)",
+    "government_form_de": "parlamentarische Demokratie (Grönländisches Parlament oder Inatsisartut)"
+  },
+  "GRD": {
+    "government_form_en": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+    "government_form_de": "parlamentarische Demokratie unter einer konstitutionellen Monarchie; ein Commonwealth Realm"
+  },
+  "GUM": {
+    "government_form_en": "unincorporated organized territory of the US with local self-government; republican form of territorial government with separate executive, legislative, and judicial branches",
+    "government_form_de": "organisiertes, uninkorporiertes US-Territorium mit lokaler Selbstverwaltung; republikanische Form der Territorialregierung mit getrennten Zweigen"
+  },
+  "GTM": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "GGY": {
+    "government_form_en": "parliamentary democracy (States of Deliberation)",
+    "government_form_de": "parlamentarische Demokratie (States of Deliberation)"
+  },
+  "GIN": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "GNB": {
+    "government_form_en": "semi-presidential republic",
+    "government_form_de": "semi-präsidentielle Republik"
+  },
+  "GUY": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "HTI": {
+    "government_form_en": "semi-presidential republic",
+    "government_form_de": "semi-präsidentielle Republik"
+  },
+  "VAT": {
+    "government_form_en": "ecclesiastical elective monarchy; self-described as an \"absolute monarchy\"",
+    "government_form_de": "kirchliche Wahlmonarchie; selbst beschrieben als \"absolute Monarchie\""
+  },
+  "HND": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "HKG": {
+    "government_form_en": "presidential limited democracy; a special administrative region of the People's Republic of China",
+    "government_form_de": "präsidielle begrenzte Demokratie; Sonderverwaltungszone der Volksrepublik China"
+  },
+  "HUN": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "ISL": {
+    "government_form_en": "unitary parliamentary republic",
+    "government_form_de": "unitäre parlamentarische Republik"
+  },
+  "IND": {
+    "government_form_en": "federal parliamentary republic",
+    "government_form_de": "föderale parlamentarische Republik"
+  },
+  "IDN": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "IRN": {
+    "government_form_en": "theocratic republic",
+    "government_form_de": "theokratische Republik"
+  },
+  "IRQ": {
+    "government_form_en": "federal parliamentary republic",
+    "government_form_de": "föderale parlamentarische Republik"
+  },
+  "IRL": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "IMN": {
+    "government_form_en": "parliamentary democracy (Tynwald)",
+    "government_form_de": "parlamentarische Demokratie (Tynwald)"
+  },
+  "ISR": {
+    "government_form_en": "parliamentary democracy",
+    "government_form_de": "parlamentarische Demokratie"
+  },
+  "ITA": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "JAM": {
+    "government_form_en": "parliamentary democracy (Parliament) under a constitutional monarchy; a Commonwealth realm",
+    "government_form_de": "parlamentarische Demokratie (Parlament) unter einer konstitutionellen Monarchie; ein Commonwealth Realm"
+  },
+  "JPN": {
+    "government_form_en": "parliamentary constitutional monarchy",
+    "government_form_de": "parlamentarische konstitutionelle Monarchie"
+  },
+  "JEY": {
+    "government_form_en": "parliamentary democracy (Assembly of the States of Jersey)",
+    "government_form_de": "parlamentarische Demokratie (Versammlung der Staaten von Jersey)"
+  },
+  "JOR": {
+    "government_form_en": "parliamentary constitutional monarchy",
+    "government_form_de": "parlamentarische konstitutionelle Monarchie"
+  },
+  "KAZ": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "KEN": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "KIR": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "PRK": {
+    "government_form_en": "dictatorship, single-party communist state",
+    "government_form_de": "Diktatur, Einparteienkommunistischer Staat"
+  },
+  "KOR": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "XKX": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "KWT": {
+    "government_form_en": "constitutional monarchy (emirate)",
+    "government_form_de": "konstitutionelle Monarchie (Emirat)"
+  },
+  "KGZ": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "LAO": {
+    "government_form_en": "communist party-led state",
+    "government_form_de": "kommunistisches Einparteienregime"
+  },
+  "LVA": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "LBN": {
+    "government_form_en": "parliamentary democratic republic",
+    "government_form_de": "parlamentarische demokratische Republik"
+  },
+  "LSO": {
+    "government_form_en": "parliamentary constitutional monarchy",
+    "government_form_de": "parlamentarische konstitutionelle Monarchie"
+  },
+  "LBR": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "LBY": {
+    "government_form_en": "in transition",
+    "government_form_de": "im Übergang"
+  },
+  "LIE": {
+    "government_form_en": "constitutional monarchy",
+    "government_form_de": "konstitutionelle Monarchie"
+  },
+  "LTU": {
+    "government_form_en": "semi-presidential republic",
+    "government_form_de": "semi-präsidentielle Republik"
+  },
+  "LUX": {
+    "government_form_en": "constitutional monarchy",
+    "government_form_de": "konstitutionelle Monarchie"
+  },
+  "MAC": {
+    "government_form_en": "executive-led limited democracy; a special administrative region of the People's Republic of China",
+    "government_form_de": "exekutiv geführte begrenzte Demokratie; Sonderverwaltungszone der Volksrepublik China"
+  },
+  "MDG": {
+    "government_form_en": "semi-presidential republic",
+    "government_form_de": "semi-präsidentielle Republik"
+  },
+  "MWI": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "MYS": {
+    "government_form_en": "federal parliamentary constitutional monarchy",
+    "government_form_de": "föderale parlamentarische konstitutionelle Monarchie"
+  },
+  "MDV": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "MLI": {
+    "government_form_en": "semi-presidential republic",
+    "government_form_de": "semi-präsidentielle Republik"
+  },
+  "MLT": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "MHL": {
+    "government_form_en": "mixed presidential-parliamentary system in free association with the US",
+    "government_form_de": "gemischtes präsidentiell-parlamentarisches System in Freier Assoziation mit den USA"
+  },
+  "MRT": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "MUS": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "MEX": {
+    "government_form_en": "federal presidential republic",
+    "government_form_de": "föderale präsidiale Republik"
+  },
+  "FSM": {
+    "government_form_en": "federal republic in free association with the US",
+    "government_form_de": "föderaler Staat in Freier Assoziation mit den USA"
+  },
+  "MDA": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "MCO": {
+    "government_form_en": "constitutional monarchy",
+    "government_form_de": "konstitutionelle Monarchie"
+  },
+  "MNG": {
+    "government_form_en": "semi-presidential republic",
+    "government_form_de": "semi-präsidentielle Republik"
+  },
+  "MNE": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "MSR": {
+    "government_form_en": "parliamentary democracy; self-governing overseas territory of the UK",
+    "government_form_de": "parlamentarische Demokratie; selbstverwaltetes britisches Überseegebiet"
+  },
+  "MAR": {
+    "government_form_en": "parliamentary constitutional monarchy",
+    "government_form_de": "parlamentarische konstitutionelle Monarchie"
+  },
+  "MOZ": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "NAM": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "NRU": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "NPL": {
+    "government_form_en": "federal parliamentary republic",
+    "government_form_de": "föderale parlamentarische Republik"
+  },
+  "NLD": {
+    "government_form_en": "parliamentary constitutional monarchy",
+    "government_form_de": "parlamentarische konstitutionelle Monarchie"
+  },
+  "NCL": {
+    "government_form_en": "parliamentary democracy (Territorial Congress); an overseas collectivity of France",
+    "government_form_de": "parlamentarische Demokratie (Gebietskongress); französisches Überseeterritorium"
+  },
+  "NZL": {
+    "government_form_en": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+    "government_form_de": "parlamentarische Demokratie unter einer konstitutionellen Monarchie; ein Commonwealth Realm"
+  },
+  "NIC": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "NER": {
+    "government_form_en": "in transition",
+    "government_form_de": "im Übergang"
+  },
+  "NGA": {
+    "government_form_en": "federal presidential republic",
+    "government_form_de": "föderale präsidiale Republik"
+  },
+  "NIU": {
+    "government_form_en": "parliamentary democracy",
+    "government_form_de": "parlamentarische Demokratie"
+  },
+  "NFK": {
+    "government_form_en": "non-self-governing overseas territory of Australia",
+    "government_form_de": "nicht selbstverwaltetes australisches Überseegebiet"
+  },
+  "MKD": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "MNP": {
+    "government_form_en": "commonwealth in political union with and under the sovereignty of the US; republican form of government with separate executive, legislative, and judicial branches",
+    "government_form_de": "Commonwealth in politischer Union und unter der Souveränität der USA; republikanische Regierungsform mit getrennten Zweigen"
+  },
+  "NOR": {
+    "government_form_en": "parliamentary constitutional monarchy",
+    "government_form_de": "parlamentarische konstitutionelle Monarchie"
+  },
+  "OMN": {
+    "government_form_en": "absolute monarchy",
+    "government_form_de": "absolute Monarchie"
+  },
+  "PAK": {
+    "government_form_en": "federal parliamentary republic",
+    "government_form_de": "föderale parlamentarische Republik"
+  },
+  "PLW": {
+    "government_form_en": "presidential republic in free association with the US",
+    "government_form_de": "präsidiale Republik in Freier Assoziation mit den USA"
+  },
+  "PAN": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "PNG": {
+    "government_form_en": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+    "government_form_de": "parlamentarische Demokratie unter einer konstitutionellen Monarchie; ein Commonwealth Realm"
+  },
+  "PRY": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "PER": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "PHL": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "PCN": {
+    "government_form_en": "parliamentary democracy",
+    "government_form_de": "parlamentarische Demokratie"
+  },
+  "POL": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "PRT": {
+    "government_form_en": "semi-presidential republic",
+    "government_form_de": "semi-präsidentielle Republik"
+  },
+  "PRI": {
+    "government_form_en": "unincorporated organized territory of the US with local self-government; republican form of territorial government with separate executive, legislative, and judicial branches",
+    "government_form_de": "organisiertes, uninkorporiertes US-Territorium mit lokaler Selbstverwaltung; republikanische Form der Territorialregierung mit getrennten Zweigen"
+  },
+  "QAT": {
+    "government_form_en": "absolute monarchy",
+    "government_form_de": "absolute Monarchie"
+  },
+  "ROU": {
+    "government_form_en": "semi-presidential republic",
+    "government_form_de": "semi-präsidentielle Republik"
+  },
+  "RUS": {
+    "government_form_en": "semi-presidential federation",
+    "government_form_de": "semi-präsidentielle Föderation"
+  },
+  "RWA": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "BLM": {
+    "government_form_en": "parliamentary democracy (Territorial Council); overseas collectivity of France",
+    "government_form_de": "parlamentarische Demokratie (Territorialrat); französisches Überseeterritorium"
+  },
+  "SHN": {
+    "government_form_en": "parliamentary democracy",
+    "government_form_de": "parlamentarische Demokratie"
+  },
+  "KNA": {
+    "government_form_en": "federal parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+    "government_form_de": "föderale parlamentarische Demokratie unter einer konstitutionellen Monarchie; ein Commonwealth Realm"
+  },
+  "LCA": {
+    "government_form_en": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+    "government_form_de": "parlamentarische Demokratie unter einer konstitutionellen Monarchie; ein Commonwealth Realm"
+  },
+  "MAF": {
+    "government_form_en": "parliamentary democracy (Territorial Council); overseas collectivity of France",
+    "government_form_de": "parlamentarische Demokratie (Territorialrat); französisches Überseeterritorium"
+  },
+  "SPM": {
+    "government_form_en": "parliamentary democracy (Territorial Council); overseas collectivity of France",
+    "government_form_de": "parlamentarische Demokratie (Territorialrat); französisches Überseeterritorium"
+  },
+  "VCT": {
+    "government_form_en": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+    "government_form_de": "parlamentarische Demokratie unter einer konstitutionellen Monarchie; ein Commonwealth Realm"
+  },
+  "WSM": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "SMR": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "STP": {
+    "government_form_en": "semi-presidential republic",
+    "government_form_de": "semi-präsidentielle Republik"
+  },
+  "SAU": {
+    "government_form_en": "absolute monarchy",
+    "government_form_de": "absolute Monarchie"
+  },
+  "SEN": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "SRB": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "SYC": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "SLE": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "SGP": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "SXM": {
+    "government_form_en": "parliamentary democracy under a constitutional monarchy",
+    "government_form_de": "parlamentarische Demokratie unter einer konstitutionellen Monarchie"
+  },
+  "SVK": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "SVN": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "SLB": {
+    "government_form_en": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+    "government_form_de": "parlamentarische Demokratie unter einer konstitutionellen Monarchie; ein Commonwealth Realm"
+  },
+  "SOM": {
+    "government_form_en": "federal parliamentary republic",
+    "government_form_de": "föderale parlamentarische Republik"
+  },
+  "ZAF": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "SSD": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "ESP": {
+    "government_form_en": "parliamentary constitutional monarchy",
+    "government_form_de": "parlamentarische konstitutionelle Monarchie"
+  },
+  "LKA": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "SDN": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "SUR": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "SJM": {
+    "government_form_en": "non-self-governing territory of Norway",
+    "government_form_de": "nicht selbstverwaltetes norwegisches Hoheitsgebiet"
+  },
+  "SWE": {
+    "government_form_en": "parliamentary constitutional monarchy",
+    "government_form_de": "parlamentarische konstitutionelle Monarchie"
+  },
+  "CHE": {
+    "government_form_en": "federal republic (formally a confederation)",
+    "government_form_de": "föderaler Staat (formal eine Konföderation)"
+  },
+  "SYR": {
+    "government_form_en": "presidential republic; highly authoritarian regime",
+    "government_form_de": "präsidiale Republik; hoch autoritäres Regime"
+  },
+  "TWN": {
+    "government_form_en": "semi-presidential republic",
+    "government_form_de": "semi-präsidentielle Republik"
+  },
+  "TJK": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "TZA": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "THA": {
+    "government_form_en": "constitutional monarchy",
+    "government_form_de": "konstitutionelle Monarchie"
+  },
+  "TLS": {
+    "government_form_en": "semi-presidential republic",
+    "government_form_de": "semi-präsidentielle Republik"
+  },
+  "TGO": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "TKL": {
+    "government_form_en": "parliamentary democracy under a constitutional monarchy",
+    "government_form_de": "parlamentarische Demokratie unter einer konstitutionellen Monarchie"
+  },
+  "TON": {
+    "government_form_en": "constitutional monarchy",
+    "government_form_de": "konstitutionelle Monarchie"
+  },
+  "TTO": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "TUN": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "TUR": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "TKM": {
+    "government_form_en": "presidential republic; authoritarian",
+    "government_form_de": "präsidiale Republik; autoritär"
+  },
+  "TCI": {
+    "government_form_en": "parliamentary democracy",
+    "government_form_de": "parlamentarische Demokratie"
+  },
+  "TUV": {
+    "government_form_en": "parliamentary democracy under a constitutional monarchy; a Commonwealth realm",
+    "government_form_de": "parlamentarische Demokratie unter einer konstitutionellen Monarchie; ein Commonwealth Realm"
+  },
+  "UGA": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "UKR": {
+    "government_form_en": "semi-presidential republic",
+    "government_form_de": "semi-präsidentielle Republik"
+  },
+  "ARE": {
+    "government_form_en": "federation of monarchies",
+    "government_form_de": "Föderation von Monarchien"
+  },
+  "GBR": {
+    "government_form_en": "parliamentary constitutional monarchy; a Commonwealth realm",
+    "government_form_de": "parlamentarische konstitutionelle Monarchie; ein Commonwealth Realm"
+  },
+  "USA": {
+    "government_form_en": "constitutional federal republic",
+    "government_form_de": "konstitutionelle föderale Republik"
+  },
+  "URY": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "UZB": {
+    "government_form_en": "presidential republic; highly authoritarian",
+    "government_form_de": "präsidiale Republik; hoch autoritär"
+  },
+  "VUT": {
+    "government_form_en": "parliamentary republic",
+    "government_form_de": "parlamentarische Republik"
+  },
+  "VEN": {
+    "government_form_en": "federal presidential republic",
+    "government_form_de": "föderale präsidiale Republik"
+  },
+  "VNM": {
+    "government_form_en": "communist party-led state",
+    "government_form_de": "kommunistisches Einparteienregime"
+  },
+  "VIR": {
+    "government_form_en": "unincorporated organized territory of the US with local self-government; republican form of territorial government with separate executive, legislative, and judicial branches",
+    "government_form_de": "organisiertes, uninkorporiertes US-Territorium mit lokaler Selbstverwaltung; republikanische Form der Territorialregierung mit getrennten Zweigen"
+  },
+  "WLF": {
+    "government_form_en": "parliamentary democracy (Territorial Assembly); overseas collectivity of France",
+    "government_form_de": "parlamentarische Demokratie (Gebietsversammlung); französisches Überseeterritorium"
+  },
+  "YEM": {
+    "government_form_en": "in transition",
+    "government_form_de": "im Übergang"
+  },
+  "ZMB": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  },
+  "ZWE": {
+    "government_form_en": "presidential republic",
+    "government_form_de": "präsidiale Republik"
+  }
+}

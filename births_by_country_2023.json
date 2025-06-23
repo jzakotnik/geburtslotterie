@@ -1,0 +1,506 @@
+[
+  {
+    "Country": "India",
+    "Country_de": "Indien",
+    "Births": 29466366,
+    "ISO_A3": "IND",
+    "birthProbability": 0.228372
+  },
+  {
+    "Country": "China",
+    "Country_de": "China",
+    "Births": 8899881,
+    "ISO_A3": "CHN",
+    "birthProbability": 0.068976
+  },
+  {
+    "Country": "Nigeria",
+    "Country_de": "Nigeria",
+    "Births": 7509758,
+    "ISO_A3": "NGA",
+    "birthProbability": 0.058203
+  },
+  {
+    "Country": "Pakistan",
+    "Country_de": "Pakistan",
+    "Births": 6882058,
+    "ISO_A3": "PAK",
+    "birthProbability": 0.053338
+  },
+  {
+    "Country": "Indonesia",
+    "Country_de": "Indonesien",
+    "Births": 4482359,
+    "ISO_A3": "IDN",
+    "birthProbability": 0.034739
+  },
+  {
+    "Country": "Democratic Republic of the Congo",
+    "Country_de": "Democratic Republic of the Congo",
+    "Births": 4369683,
+    "ISO_A3": "COD",
+    "birthProbability": 0.033866
+  },
+  {
+    "Country": "Ethiopia",
+    "Country_de": "Äthiopien",
+    "Births": 4105685,
+    "ISO_A3": "ETH",
+    "birthProbability": 0.03182
+  },
+  {
+    "Country": "United States",
+    "Country_de": "Vereinigte Staaten",
+    "Births": 3657476,
+    "ISO_A3": "USA",
+    "birthProbability": 0.028346
+  },
+  {
+    "Country": "Bangladesh",
+    "Country_de": "Bangladesch",
+    "Births": 3489953,
+    "ISO_A3": "BGD",
+    "birthProbability": 0.027048
+  },
+  {
+    "Country": "Brazil",
+    "Country_de": "Brasilien",
+    "Births": 2601670,
+    "ISO_A3": "BRA",
+    "birthProbability": 0.020164
+  },
+  {
+    "Country": "Egypt",
+    "Country_de": "Ägypten",
+    "Births": 2405717,
+    "ISO_A3": "EGY",
+    "birthProbability": 0.018645
+  },
+  {
+    "Country": "Tanzania",
+    "Country_de": "Tansania",
+    "Births": 2346391,
+    "ISO_A3": "TZA",
+    "birthProbability": 0.018185
+  },
+  {
+    "Country": "Mexico",
+    "Country_de": "Mexiko",
+    "Births": 2037689,
+    "ISO_A3": "MEX",
+    "birthProbability": 0.015793
+  },
+  {
+    "Country": "Philippines",
+    "Country_de": "Philippinen",
+    "Births": 1840477,
+    "ISO_A3": "PHL",
+    "birthProbability": 0.014264
+  },
+  {
+    "Country": "Uganda",
+    "Country_de": "Uganda",
+    "Births": 1712750,
+    "ISO_A3": "UGA",
+    "birthProbability": 0.013274
+  },
+  {
+    "Country": "Sudan",
+    "Country_de": "Sudan",
+    "Births": 1682049,
+    "ISO_A3": "SDN",
+    "birthProbability": 0.013036
+  },
+  {
+    "Country": "Kenya",
+    "Country_de": "Kenia",
+    "Births": 1499998,
+    "ISO_A3": "KEN",
+    "birthProbability": 0.011625
+  },
+  {
+    "Country": "Afghanistan",
+    "Country_de": "Afghanistan",
+    "Births": 1469029,
+    "ISO_A3": "AFG",
+    "birthProbability": 0.011385
+  },
+  {
+    "Country": "Vietnam",
+    "Country_de": "Vietnam",
+    "Births": 1387961,
+    "ISO_A3": "VNM",
+    "birthProbability": 0.010757
+  },
+  {
+    "Country": "Yemen",
+    "Country_de": "Jemen",
+    "Births": 1386914,
+    "ISO_A3": "YEM",
+    "birthProbability": 0.010749
+  },
+  {
+    "Country": "Angola",
+    "Country_de": "Angola",
+    "Births": 1381370,
+    "ISO_A3": "AGO",
+    "birthProbability": 0.010706
+  },
+  {
+    "Country": "Russia",
+    "Country_de": "Russia",
+    "Births": 1297207,
+    "ISO_A3": "RUS",
+    "birthProbability": 0.010054
+  },
+  {
+    "Country": "Mozambique",
+    "Country_de": "Mosambik",
+    "Births": 1260855,
+    "ISO_A3": "MOZ",
+    "birthProbability": 0.009772
+  },
+  {
+    "Country": "South Africa",
+    "Country_de": "Südafrika",
+    "Births": 1186793,
+    "ISO_A3": "ZAF",
+    "birthProbability": 0.009198
+  },
+  {
+    "Country": "Iran",
+    "Country_de": "Iran",
+    "Births": 1173463,
+    "ISO_A3": "IRN",
+    "birthProbability": 0.009095
+  },
+  {
+    "Country": "Iraq",
+    "Country_de": "Irak",
+    "Births": 1159682,
+    "ISO_A3": "IRQ",
+    "birthProbability": 0.008988
+  },
+  {
+    "Country": "Niger",
+    "Country_de": "Niger",
+    "Births": 1095892,
+    "ISO_A3": "NER",
+    "birthProbability": 0.008493
+  },
+  {
+    "Country": "Turkey",
+    "Country_de": "Türkei",
+    "Births": 1072014,
+    "ISO_A3": "TUR",
+    "birthProbability": 0.008308
+  },
+  {
+    "Country": "Madagascar",
+    "Country_de": "Madagaskar",
+    "Births": 1001244,
+    "ISO_A3": "MDG",
+    "birthProbability": 0.00776
+  },
+  {
+    "Country": "Ivory Coast",
+    "Country_de": "Ivory Coast",
+    "Births": 997001,
+    "ISO_A3": "CIV",
+    "birthProbability": 0.007727
+  },
+  {
+    "Country": "Cameroon",
+    "Country_de": "Kamerun",
+    "Births": 957392,
+    "ISO_A3": "CMR",
+    "birthProbability": 0.00742
+  },
+  {
+    "Country": "Mali",
+    "Country_de": "Mali",
+    "Births": 951445,
+    "ISO_A3": "MLI",
+    "birthProbability": 0.007374
+  },
+  {
+    "Country": "Uzbekistan",
+    "Country_de": "Usbekistan",
+    "Births": 943547,
+    "ISO_A3": "UZB",
+    "birthProbability": 0.007313
+  },
+  {
+    "Country": "Algeria",
+    "Country_de": "Algerien",
+    "Births": 905981,
+    "ISO_A3": "DZA",
+    "birthProbability": 0.007022
+  },
+  {
+    "Country": "Myanmar",
+    "Country_de": "Myanmar",
+    "Births": 903822,
+    "ISO_A3": "MMR",
+    "birthProbability": 0.007005
+  },
+  {
+    "Country": "Ghana",
+    "Country_de": "Ghana",
+    "Births": 888947,
+    "ISO_A3": "GHA",
+    "birthProbability": 0.00689
+  },
+  {
+    "Country": "Chad",
+    "Country_de": "Tschad",
+    "Births": 819054,
+    "ISO_A3": "TCD",
+    "birthProbability": 0.006348
+  },
+  {
+    "Country": "Somalia",
+    "Country_de": "Somalia",
+    "Births": 788763,
+    "ISO_A3": "SOM",
+    "birthProbability": 0.006113
+  },
+  {
+    "Country": "Japan",
+    "Country_de": "Japan",
+    "Births": 749884,
+    "ISO_A3": "JPN",
+    "birthProbability": 0.005812
+  },
+  {
+    "Country": "Burkina Faso",
+    "Country_de": "Burkina Faso",
+    "Births": 728612,
+    "ISO_A3": "BFA",
+    "birthProbability": 0.005647
+  },
+  {
+    "Country": "Germany",
+    "Country_de": "Deutschland",
+    "Births": 719249,
+    "ISO_A3": "DEU",
+    "birthProbability": 0.005574
+  },
+  {
+    "Country": "Colombia",
+    "Country_de": "Kolumbien",
+    "Births": 705009,
+    "ISO_A3": "COL",
+    "birthProbability": 0.005464
+  },
+  {
+    "Country": "Zambia",
+    "Country_de": "Sambia",
+    "Births": 685565,
+    "ISO_A3": "ZMB",
+    "birthProbability": 0.005313
+  },
+  {
+    "Country": "Malawi",
+    "Country_de": "Malawi",
+    "Births": 662289,
+    "ISO_A3": "MWI",
+    "birthProbability": 0.005133
+  },
+  {
+    "Country": "United Kingdom",
+    "Country_de": "Vereinigtes Königreich",
+    "Births": 656847,
+    "ISO_A3": "GBR",
+    "birthProbability": 0.005091
+  },
+  {
+    "Country": "France",
+    "Country_de": "Frankreich",
+    "Births": 638891,
+    "ISO_A3": "FRA",
+    "birthProbability": 0.004952
+  },
+  {
+    "Country": "Morocco",
+    "Country_de": "Marokko",
+    "Births": 629832,
+    "ISO_A3": "MAR",
+    "birthProbability": 0.004881
+  },
+  {
+    "Country": "Thailand",
+    "Country_de": "Thailand",
+    "Births": 591200,
+    "ISO_A3": "THA",
+    "birthProbability": 0.004582
+  },
+  {
+    "Country": "Nepal",
+    "Country_de": "Nepal",
+    "Births": 574297,
+    "ISO_A3": "NPL",
+    "birthProbability": 0.004451
+  },
+  {
+    "Country": "Saudi Arabia",
+    "Country_de": "Saudi-Arabien",
+    "Births": 546038,
+    "ISO_A3": "SAU",
+    "birthProbability": 0.004232
+  },
+  {
+    "Country": "Peru",
+    "Country_de": "Peru",
+    "Births": 539623,
+    "ISO_A3": "PER",
+    "birthProbability": 0.004182
+  },
+  {
+    "Country": "Senegal",
+    "Country_de": "Senegal",
+    "Births": 531890,
+    "ISO_A3": "SEN",
+    "birthProbability": 0.004122
+  },
+  {
+    "Country": "Syria",
+    "Country_de": "Syria",
+    "Births": 521601,
+    "ISO_A3": "SYR",
+    "birthProbability": 0.004043
+  },
+  {
+    "Country": "Argentina",
+    "Country_de": "Argentinien",
+    "Births": 503823,
+    "ISO_A3": "ARG",
+    "birthProbability": 0.003905
+  },
+  {
+    "Country": "Zimbabwe",
+    "Country_de": "Simbabwe",
+    "Births": 496917,
+    "ISO_A3": "ZWE",
+    "birthProbability": 0.003851
+  },
+  {
+    "Country": "Guinea",
+    "Country_de": "Guinea",
+    "Births": 487595,
+    "ISO_A3": "GIN",
+    "birthProbability": 0.003779
+  },
+  {
+    "Country": "Benin",
+    "Country_de": "Benin",
+    "Births": 478062,
+    "ISO_A3": "BEN",
+    "birthProbability": 0.003705
+  },
+  {
+    "Country": "Burundi",
+    "Country_de": "Burundi",
+    "Births": 460882,
+    "ISO_A3": "BDI",
+    "birthProbability": 0.003572
+  },
+  {
+    "Country": "Malaysia",
+    "Country_de": "Malaysia",
+    "Births": 435989,
+    "ISO_A3": "MYS",
+    "birthProbability": 0.003379
+  },
+  {
+    "Country": "Venezuela",
+    "Country_de": "Venezuela",
+    "Births": 426984,
+    "ISO_A3": "VEN",
+    "birthProbability": 0.003309
+  },
+  {
+    "Country": "Kazakhstan",
+    "Country_de": "Kasachstan",
+    "Births": 409417,
+    "ISO_A3": "KAZ",
+    "birthProbability": 0.003173
+  },
+  {
+    "Country": "Rwanda",
+    "Country_de": "Ruanda",
+    "Births": 395578,
+    "ISO_A3": "RWA",
+    "birthProbability": 0.003066
+  },
+  {
+    "Country": "Italy",
+    "Country_de": "Italien",
+    "Births": 384627,
+    "ISO_A3": "ITA",
+    "birthProbability": 0.002981
+  },
+  {
+    "Country": "Guatemala",
+    "Country_de": "Guatemala",
+    "Births": 377167,
+    "ISO_A3": "GTM",
+    "birthProbability": 0.002923
+  },
+  {
+    "Country": "Cambodia",
+    "Country_de": "Kambodscha",
+    "Births": 361586,
+    "ISO_A3": "KHM",
+    "birthProbability": 0.002802
+  },
+  {
+    "Country": "Canada",
+    "Country_de": "Kanada",
+    "Births": 356745,
+    "ISO_A3": "CAN",
+    "birthProbability": 0.002765
+  },
+  {
+    "Country": "North Korea",
+    "Country_de": "North Korea",
+    "Births": 342038,
+    "ISO_A3": "PRK",
+    "birthProbability": 0.002651
+  },
+  {
+    "Country": "Spain",
+    "Country_de": "Spanien",
+    "Births": 336821,
+    "ISO_A3": "ESP",
+    "birthProbability": 0.00261
+  },
+  {
+    "Country": "South Sudan",
+    "Country_de": "Südsudan",
+    "Births": 328308,
+    "ISO_A3": "SSD",
+    "birthProbability": 0.002544
+  },
+  {
+    "Country": "Sri Lanka",
+    "Country_de": "Sri Lanka",
+    "Births": 324102,
+    "ISO_A3": "LKA",
+    "birthProbability": 0.002512
+  },
+  {
+    "Country": "Poland",
+    "Country_de": "Polen",
+    "Births": 317916,
+    "ISO_A3": "POL",
+    "birthProbability": 0.002464
+  },
+  {
+    "Country": "Australia",
+    "Country_de": "Australien",
+    "Births": 304340,
+    "ISO_A3": "AUS",
+    "birthProbability": 0.002359
+  }
+]
