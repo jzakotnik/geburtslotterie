@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-export default defineConfig(({ command }) => ({
+export default defineConfig({
   plugins: [react()],
-  // serve from “/” when you run `npm run dev`, but from “/my-repo/” in your build
-  base: command === "serve" ? "/" : "/geburtslotterie/",
-}));
+  // if your GitHub repo is "government_forms":
+  base: "/geburtslotterie/",
+});

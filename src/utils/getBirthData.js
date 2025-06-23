@@ -1,6 +1,8 @@
 export async function getBirthData() {
   try {
-    const response = await fetch("/births_by_country_2023.json");
+    const response = await fetch(
+      import.meta.env.BASE_URL + "/births_by_country_2023.json"
+    );
     if (!response.ok) throw new Error("Failed to load data");
 
     const countries = await response.json();

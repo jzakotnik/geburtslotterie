@@ -1,6 +1,8 @@
 export async function getGovernmentFormData() {
   try {
-    const response = await fetch("/government_forms.json");
+    const response = await fetch(
+      import.meta.env.BASE_URL + "/government_forms.json"
+    );
     if (!response.ok) throw new Error("Failed to load data");
 
     const countries = await response.json();
