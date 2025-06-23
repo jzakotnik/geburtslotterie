@@ -5,7 +5,7 @@ function Projects({ iso_a3 = "" }) {
   console.log("Searching for iso code", iso_a3, projects);
 
   useEffect(() => {
-    fetch("/projects_with_iso.json")
+    fetch(import.meta.env.BASE_URL + "projects_with_iso.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch projects.json");

@@ -58,7 +58,7 @@ const Layout = () => {
   };
 
   useEffect(() => {
-    fetch("/countries110m.json")
+    fetch(import.meta.env.BASE_URL + "countries110m.json")
       .then((res) => {
         if (!res.ok) throw new Error("Failed to load local topojson");
         return res.json();
@@ -68,7 +68,7 @@ const Layout = () => {
   }, []);
 
   useEffect(() => {
-    fetch("/child_mortality_with_iso.json")
+    fetch(import.meta.env.BASE_URL + "child_mortality_with_iso.json")
       .then((res) => {
         if (!res.ok) throw new Error("Failed to load local topojson");
         return res.json();
@@ -78,7 +78,7 @@ const Layout = () => {
   }, []);
 
   useEffect(() => {
-    fetch("/income.json")
+    fetch(import.meta.env.BASE_URL + "income.json")
       .then((res) => {
         if (!res.ok) throw new Error("Failed to load incomes");
         return res.json();
@@ -217,7 +217,7 @@ const Layout = () => {
                 </p>
                 <p>
                   Wahrscheinlichkeit dass Du bei der Geburt direkt wieder
-                  verstirbst ist : <strong>{selectedChildMortality} </strong>{" "}
+                  verstirbst ist : <strong>{selectedChildMortality}x </strong>{" "}
                   höher als in Deutschland
                 </p>
 
