@@ -38,7 +38,7 @@
     "Country": "Democratic Republic of the Congo",
     "Country_de": "Democratic Republic of the Congo",
     "Births": 4369683,
-    "ISO_A3": null,
+    "ISO_A3": "COD",
     "birthProbability": 0.033866
   },
   {
@@ -150,7 +150,7 @@
     "Country": "Russia",
     "Country_de": "Russia",
     "Births": 1297207,
-    "ISO_A3": null,
+    "ISO_A3": "RUS",
     "birthProbability": 0.010054
   },
   {
@@ -171,7 +171,7 @@
     "Country": "Iran",
     "Country_de": "Iran",
     "Births": 1173463,
-    "ISO_A3": null,
+    "ISO_A3": "IRN",
     "birthProbability": 0.009095
   },
   {
@@ -206,7 +206,7 @@
     "Country": "Ivory Coast",
     "Country_de": "Ivory Coast",
     "Births": 997001,
-    "ISO_A3": null,
+    "ISO_A3": "CIV",
     "birthProbability": 0.007727
   },
   {
@@ -367,7 +367,7 @@
     "Country": "Syria",
     "Country_de": "Syria",
     "Births": 521601,
-    "ISO_A3": null,
+    "ISO_A3": "SYR",
     "birthProbability": 0.004043
   },
   {
@@ -465,7 +465,7 @@
     "Country": "North Korea",
     "Country_de": "North Korea",
     "Births": 342038,
-    "ISO_A3": null,
+    "ISO_A3": "PRK",
     "birthProbability": 0.002651
   },
   {

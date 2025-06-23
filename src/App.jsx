@@ -86,7 +86,7 @@ const Layout = () => {
         }}
       >
         <div style={{ marginBottom: isMobile ? "0.5rem" : 0 }}>
-          Geburtslotterie
+          <strong>Geburtslotterie</strong> - wo lande ich im nächsten Leben?
         </div>
         <button
           onClick={handleRoll}
@@ -125,7 +125,8 @@ const Layout = () => {
           style={{
             flex: 2,
             padding: "1rem",
-            backgroundColor: "#f0f0f0",
+            backgroundImage:
+              "linear-gradient(to bottom, #002a00 0%, #001200 50%, #00002d 100%)",
             minHeight: 0,
             width: isMobile ? "100%" : "auto",
             height: isMobile ? "50vh" : "100%",
@@ -187,7 +188,7 @@ const Layout = () => {
             {selectedCountry ? (
               <div>
                 <p>
-                  Glückwunsch, es ist:{" "}
+                  🎉🎉🎉 Glückwunsch, es ist:{" "}
                   <strong>{selectedCountry?.Country_de}</strong>
                 </p>
                 <p>
