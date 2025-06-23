@@ -4,14 +4,17 @@ import { getBirthData } from "./utils/getBirthData";
 import { diceRoll } from "./utils/diceRoll";
 import { getGovernmentFormData } from "./utils/getGovernmentFormData";
 import Projects from "./components/Projects";
+import StyledButton from "./components/StyledButton";
 
 const Layout = () => {
   const [allCountries, setAllCountries] = useState();
   const [allGovernments, setAllGovernments] = useState();
+  const [allChildMortality, setAllChildMortality] = useState();
   const [allIncomes, setAllIncomes] = useState();
   const [geoData, setGeoData] = useState(null);
   const [selectedCountry, setSelectedCountry] = useState(null);
   const [selectedIncome, setSelectedIncome] = useState(0);
+  const [selectedChildMortality, setSelectedChildMortality] = useState(0);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
   // Handle viewport resize to toggle mobile layout
@@ -28,6 +31,14 @@ const Layout = () => {
     const filteredIncome = allIncomes.find((i) => i.iso_a3 === rolled.ISO_A3);
     const germanyIncome = allIncomes.find((i) => i.iso_a3 === "DEU");
 
+    const filteredChildMortality = allChildMortality.find(
+      (i) => i.iso_a3 === rolled.ISO_A3
+    );
+
+    const germanyChildMortality = allChildMortality.find(
+      (i) => i.iso_a3 === "DEU"
+    );
+
     console.log(
       "Calculating incomes for ",
       rolled,
@@ -37,6 +48,13 @@ const Layout = () => {
     setSelectedIncome(
       Math.round((filteredIncome.income / germanyIncome.income) * 100)
     );
+    setSelectedChildMortality(
+      Math.round(
+        filteredChildMortality.child_mortality_percent /
+          germanyChildMortality.child_mortality_percent
+      )
+    );
+    console.log("Mortality", filteredChildMortality, germanyChildMortality);
   };
 
   useEffect(() => {
@@ -46,6 +64,16 @@ const Layout = () => {
         return res.json();
       })
       .then((topoJson) => setGeoData(topoJson))
+      .catch((err) => console.error(err));
+  }, []);
+
+  useEffect(() => {
+    fetch("/child_mortality_with_iso.json")
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to load local topojson");
+        return res.json();
+      })
+      .then((childMor) => setAllChildMortality(childMor))
       .catch((err) => console.error(err));
   }, []);
 
@@ -77,9 +105,10 @@ const Layout = () => {
         style={{
           display: "flex",
           flexDirection: isMobile ? "column" : "row",
-          justifyContent: "space-between",
-          alignItems: "center",
-          padding: "1rem",
+          justifyContent: "flex-start", // align all items to the left
+          alignItems: isMobile ? "flex-start" : "center",
+          gap: "2rem", // uniform space between children
+          padding: "2rem", // extra padding around container
           backgroundColor: "#1e1e1e",
           color: "#fff",
           fontSize: "1.5rem",
@@ -88,21 +117,8 @@ const Layout = () => {
         <div style={{ marginBottom: isMobile ? "0.5rem" : 0 }}>
           <strong>Geburtslotterie</strong> - wo lande ich im nächsten Leben?
         </div>
-        <button
-          onClick={handleRoll}
-          style={{
-            backgroundColor: "#61dafb",
-            color: "#1e1e1e",
-            border: "none",
-            padding: "0.5rem 1rem",
-            borderRadius: "0.25rem",
-            cursor: "pointer",
-            fontSize: "1rem",
-            marginBottom: isMobile ? "0.5rem" : 0,
-          }}
-        >
-          Würfeln
-        </button>
+
+        <StyledButton onClick={handleRoll}>Nächstes Leben..</StyledButton>
         <a
           href="https://github.com/jzakotnik"
           target="_blank"
@@ -192,12 +208,17 @@ const Layout = () => {
                   <strong>{selectedCountry?.Country_de}</strong>
                 </p>
                 <p>
-                  Staatsform:{" "}
+                  Du lebst dann in einer Staatsform:{" "}
                   {allGovernments[selectedCountry.ISO_A3]?.government_form_de}
                 </p>
                 <p>
-                  Durchschnittsgehalt: <strong>{selectedIncome} %</strong> vom
-                  Gehalt in Deutschland
+                  Dein Gehalt wird wohl <strong>{selectedIncome} %</strong> vom
+                  Gehalt in Deutschland sein
+                </p>
+                <p>
+                  Wahrscheinlichkeit dass Du bei der Geburt direkt wieder
+                  verstirbst ist : <strong>{selectedChildMortality} </strong>{" "}
+                  höher als in Deutschland
                 </p>
 
                 <Projects iso_a3={selectedCountry.ISO_A3} />
