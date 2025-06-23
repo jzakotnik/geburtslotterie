@@ -134,23 +134,28 @@ const Layout = () => {
           display: "flex",
           flex: 1,
           flexDirection: isMobile ? "column" : "row",
-          minHeight: 0,
         }}
       >
         <div
           style={{
             flex: 2,
+            flexShrink: 0,
             padding: "1rem",
             backgroundImage:
               "linear-gradient(to bottom, #002a00 0%, #001200 50%, #00002d 100%)",
             minHeight: 0,
-            width: isMobile ? "100%" : "auto",
-            height: isMobile ? "50vh" : "100%",
+            width: "100%",
+            height: isMobile ? "auto" : "100%",
           }}
         >
           <ComposableMap
-            style={{ width: "100%", height: "100%" }}
-            projectionConfig={{ scale: 150 }}
+            // define the SVG’s viewBox so it “knows” its 16×9 ratio
+            viewBox="0 0 800 450"
+            style={{
+              width: "100%", // fill the container
+
+              display: "block", // remove any inline-block whitespace quirks
+            }}
           >
             <Geographies geography={geoData}>
               {({ geographies }) =>
