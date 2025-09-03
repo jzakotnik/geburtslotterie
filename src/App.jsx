@@ -1,235 +1,251 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 import { getBirthData } from "./utils/getBirthData";
 import { diceRoll } from "./utils/diceRoll";
 import { getGovernmentFormData } from "./utils/getGovernmentFormData";
 import Projects from "./components/Projects";
 import StyledButton from "./components/StyledButton";
+import ThemeToggle from "./components/ThemeToggle";
+import ActionsMenu from "./components/ActionsMenu";
 
 const Layout = () => {
-  const [allCountries, setAllCountries] = useState();
-  const [allGovernments, setAllGovernments] = useState();
-  const [allChildMortality, setAllChildMortality] = useState();
-  const [allIncomes, setAllIncomes] = useState();
+  // Daten
+  const [allCountries, setAllCountries] = useState(null); // { totalBirths, raw: [] }
+  const [allGovernments, setAllGovernments] = useState(null);
+  const [allChildMortality, setAllChildMortality] = useState(null);
+  const [allIncomes, setAllIncomes] = useState(null);
   const [geoData, setGeoData] = useState(null);
+
+  // Auswahl fürs rechte (jetzt: untere) Panel – nur durch Button
   const [selectedCountry, setSelectedCountry] = useState(null);
   const [selectedIncome, setSelectedIncome] = useState(0);
   const [selectedChildMortality, setSelectedChildMortality] = useState(0);
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
-  // Handle viewport resize to toggle mobile layout
-  useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 768);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  // Klick-Pop-up (ändert Panel NICHT)
+  const [preview, setPreview] = useState(null); // { x,y,name,iso,gov,incomePct,mortalityX }
+  const popRef = useRef(null);
 
-  const handleRoll = () => {
-    if (!allCountries || allCountries.length === 0) return;
-    const rolled = diceRoll(allCountries);
-    setSelectedCountry(rolled);
-    const filteredIncome = allIncomes.find((i) => i.iso_a3 === rolled.ISO_A3);
-    const germanyIncome = allIncomes.find((i) => i.iso_a3 === "DEU");
-
-    const filteredChildMortality = allChildMortality.find(
-      (i) => i.iso_a3 === rolled.ISO_A3
-    );
-
-    const germanyChildMortality = allChildMortality.find(
-      (i) => i.iso_a3 === "DEU"
-    );
-
-    console.log(
-      "Calculating incomes for ",
-      rolled,
-      filteredIncome,
-      germanyIncome
-    );
-    setSelectedIncome(
-      Math.round((filteredIncome.income / germanyIncome.income) * 100)
-    );
-    setSelectedChildMortality(
-      Math.round(
-        filteredChildMortality.child_mortality_percent /
-          germanyChildMortality.child_mortality_percent
-      )
-    );
-    console.log("Mortality", filteredChildMortality, germanyChildMortality);
-  };
-
+  // Daten laden
   useEffect(() => {
     fetch(import.meta.env.BASE_URL + "countries110m.json")
-      .then((res) => {
-        if (!res.ok) throw new Error("Failed to load local topojson");
-        return res.json();
-      })
-      .then((topoJson) => setGeoData(topoJson))
-      .catch((err) => console.error(err));
-  }, []);
+      .then((r) => r.json())
+      .then(setGeoData)
+      .catch(console.error);
 
-  useEffect(() => {
     fetch(import.meta.env.BASE_URL + "child_mortality_with_iso.json")
-      .then((res) => {
-        if (!res.ok) throw new Error("Failed to load local topojson");
-        return res.json();
-      })
-      .then((childMor) => setAllChildMortality(childMor))
-      .catch((err) => console.error(err));
-  }, []);
+      .then((r) => r.json())
+      .then(setAllChildMortality)
+      .catch(console.error);
 
-  useEffect(() => {
     fetch(import.meta.env.BASE_URL + "income.json")
-      .then((res) => {
-        if (!res.ok) throw new Error("Failed to load incomes");
-        return res.json();
-      })
-      .then((incomes) => setAllIncomes(incomes))
-      .catch((err) => console.error(err));
+      .then((r) => r.json())
+      .then(setAllIncomes)
+      .catch(console.error);
+
+    getBirthData().then(setAllCountries).catch(console.error);
+    getGovernmentFormData().then(setAllGovernments).catch(console.error);
   }, []);
 
+  // Helfer für Kennzahlen
+  const incomePctFor = (iso) => {
+    if (!allIncomes?.length) return null;
+    const fi = allIncomes.find((i) => i.iso_a3 === iso);
+    const gi = allIncomes.find((i) => i.iso_a3 === "DEU");
+    return fi && gi ? Math.round((fi.income / gi.income) * 100) : null;
+  };
+  const mortalityXFor = (iso) => {
+    if (!allChildMortality?.length) return null;
+    const f = allChildMortality.find((i) => i.iso_a3 === iso);
+    const g = allChildMortality.find((i) => i.iso_a3 === "DEU");
+    return f && g ? Math.round(f.child_mortality_percent / g.child_mortality_percent) : null;
+  };
+
+  // Würfeln (setzt NUR Panel)
+  const handleRoll = async () => {
+    if (!allCountries?.raw?.length) return;
+    const rolled = diceRoll(allCountries); // erwartet Objekt mit .raw
+    setSelectedCountry(rolled);
+
+    // Permalink ?c=ISO
+    const url = new URL(window.location.href);
+    url.searchParams.set("c", rolled.ISO_A3);
+    window.history.replaceState({}, "", url);
+
+    // Confetti (optional)
+    try {
+      const { default: confetti } = await import("canvas-confetti");
+      confetti({ particleCount: 80, spread: 70, origin: { y: 0.2 } });
+    } catch {}
+  };
+
+  // Panel-Kennzahlen berechnen
   useEffect(() => {
-    getBirthData().then((countries) => setAllCountries(countries));
-    getGovernmentFormData().then((countries) => setAllGovernments(countries));
-  }, []);
+    if (!selectedCountry) return;
+    setSelectedIncome(incomePctFor(selectedCountry.ISO_A3) ?? 0);
+    setSelectedChildMortality(mortalityXFor(selectedCountry.ISO_A3) ?? 0);
+  }, [selectedCountry, allIncomes, allChildMortality]);
+
+  // URL ?c=ISO beim Laden respektieren
+  useEffect(() => {
+    const iso = new URLSearchParams(window.location.search).get("c");
+    if (!iso || !allCountries?.raw?.length) return;
+    const c = allCountries.raw.find((x) => x.ISO_A3 === iso);
+    if (c) setSelectedCountry(c);
+  }, [allCountries]);
+
+  // Popover outside-click / ESC
+  useEffect(() => {
+    const onDocClick = (e) => {
+      if (!preview) return;
+      if (popRef.current && !popRef.current.contains(e.target)) setPreview(null);
+    };
+    const onEsc = (e) => e.key === "Escape" && setPreview(null);
+    document.addEventListener("click", onDocClick);
+    document.addEventListener("keydown", onEsc);
+    return () => {
+      document.removeEventListener("click", onDocClick);
+      document.removeEventListener("keydown", onEsc);
+    };
+  }, [preview]);
+
+  // Map-Klick → Pop-up füllen (Panel bleibt unberührt)
+  const handleCountryClick = (e, geo) => {
+    e.stopPropagation(); // verhindert sofortiges Schließen
+    const name = (geo.properties.name || "").toUpperCase();
+
+    const entry =
+      allCountries?.raw?.find((c) => (c.Country || "").toUpperCase() === name) || null;
+
+    const iso = entry?.ISO_A3 || geo.properties.iso_a3 || "";
+    const gov = iso ? allGovernments?.[iso]?.government_form_de : null;
+
+    setPreview({
+      x: e.clientX + 12,
+      y: e.clientY + 12,
+      name: entry?.Country_de || entry?.Country || geo.properties.name,
+      iso,
+      gov: gov || "—",
+      incomePct: iso ? incomePctFor(iso) : null,
+      mortalityX: iso ? mortalityXFor(iso) : null,
+    });
+  };
 
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        height: "100vh",
-        width: "100vw",
-      }}
-    >
-      <header
-        style={{
-          display: "flex",
-          flexDirection: isMobile ? "column" : "row",
-          justifyContent: "flex-start", // align all items to the left
-          alignItems: isMobile ? "flex-start" : "center",
-          gap: "2rem", // uniform space between children
-          padding: "2rem", // extra padding around container
-          backgroundColor: "#1e1e1e",
-          color: "#fff",
-          fontSize: "1.5rem",
-        }}
-      >
-        <div style={{ marginBottom: isMobile ? "0.5rem" : 0 }}>
-          <strong>Geburtslotterie</strong> - wo lande ich im nächsten Leben?
+    <div className="app">
+      {/* Header */}
+      <header className="header">
+        <div className="brand">
+          <div className="logo" aria-hidden>🎲</div>
+          <div>
+            <div className="title">Geburtslotterie</div>
+            <div className="subtitle">wo lande ich im nächsten Leben?</div>
+          </div>
         </div>
-
-        <StyledButton onClick={handleRoll}>Nächstes Leben..</StyledButton>
-        <a
-          href="https://github.com/jzakotnik"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ color: "#61dafb", fontSize: "1rem" }}
-        >
-          GitHub
-        </a>
+        <div className="header-right">
+          <StyledButton onClick={handleRoll}>Nächstes Leben..</StyledButton>
+          <ThemeToggle />
+          <ActionsMenu onHelp={() => alert("Hier könnte dein Hilfe-Dialog aufgehen 😊")} />
+        </div>
       </header>
 
-      <main
-        style={{
-          display: "flex",
-          flex: 1,
-          flexDirection: isMobile ? "column" : "row",
-        }}
-      >
-        <div
-          style={{
-            flex: 2,
-            flexShrink: 0,
-            padding: "1rem",
-            backgroundImage:
-              "linear-gradient(to bottom, #002a00 0%, #001200 50%, #00002d 100%)",
-            minHeight: 0,
-            width: "100%",
-            height: isMobile ? "auto" : "100%",
-          }}
-        >
-          <ComposableMap
-            // define the SVG’s viewBox so it “knows” its 16×9 ratio
-            viewBox="0 0 800 450"
-            style={{
-              width: "100%", // fill the container
+      {/* Main – jetzt einspaltig, zentriert durch CSS */}
+      <main className="main">
+        {/* Map */}
+        <section className="mapWrap" aria-label="Weltkarte">
+          {geoData ? (
+            <ComposableMap viewBox="0 0 800 450" style={{ width: "100%", display: "block" }}>
+              <Geographies geography={geoData}>
+                {({ geographies }) =>
+                  geographies.map((geo) => {
+                    const name = (geo.properties.name || "").toUpperCase();
+                    const isSelected = name === selectedCountry?.Country?.toUpperCase();
+                    return (
+                      <Geography
+                        key={geo.rsmKey}
+                        geography={geo}
+                        className="map-country"
+                        onClick={(e) => handleCountryClick(e, geo)}
+                        style={{
+                          default: { fill: isSelected ? "#4f7cff" : "#bfc7d1", outline: "none", stroke: "#8aa" },
+                          hover:   { fill: isSelected ? "#4f7cff" : "#d6dde6", outline: "none" },
+                          pressed: { fill: "#aac0ff", outline: "none" },
+                        }}
+                      />
+                    );
+                  })
+                }
+              </Geographies>
+            </ComposableMap>
+          ) : (
+            <div className="skel" style={{ height: 420 }} />
+          )}
 
-              display: "block", // remove any inline-block whitespace quirks
-            }}
-          >
-            <Geographies geography={geoData}>
-              {({ geographies }) =>
-                geographies.map((geo) => {
-                  const iso = (geo.properties.name || "").toUpperCase();
-                  const isSelected =
-                    iso === selectedCountry?.Country.toUpperCase();
-                  return (
-                    <Geography
-                      key={geo.rsmKey}
-                      geography={geo}
-                      style={{
-                        default: {
-                          fill: isSelected ? "#0F37F0" : "#D6D6DA",
-                          outline: "none",
-                          stroke: "#888888",
-                        },
-                        hover: { fill: "#F53", outline: "none" },
-                        pressed: { fill: "#E42", outline: "none" },
-                      }}
-                    />
-                  );
-                })
-              }
-            </Geographies>
-          </ComposableMap>
-        </div>
-
-        <aside
-          style={{
-            flex: 1,
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            padding: "1rem",
-            boxSizing: "border-box",
-            width: isMobile ? "100%" : "auto",
-          }}
-        >
-          <div
-            style={{
-              background: "linear-gradient(135deg, #2c3e50, #4f5b66)",
-              color: "#ffffff",
-              padding: "2rem",
-              borderRadius: "0.5rem",
-              width: "100%",
-              boxSizing: "border-box",
-              boxShadow: "0 4px 6px rgba(0,0,0,0.3)",
-            }}
-          >
-            {selectedCountry ? (
-              <div>
-                <p>
-                  🎉🎉🎉 Glückwunsch, es ist:{" "}
-                  <strong>{selectedCountry?.Country_de}</strong>
-                </p>
-                <p>
-                  Du lebst dann in einer Staatsform:{" "}
-                  {allGovernments[selectedCountry.ISO_A3]?.government_form_de}
-                </p>
-                <p>
-                  Dein Gehalt wird wohl <strong>{selectedIncome} %</strong> vom
-                  Gehalt in Deutschland sein
-                </p>
-                <p>
-                  Wahrscheinlichkeit dass Du bei der Geburt direkt wieder
-                  verstirbst ist : <strong>{selectedChildMortality}x </strong>{" "}
-                  höher als in Deutschland
-                </p>
-
-                <Projects iso_a3={selectedCountry.ISO_A3} />
+          {/* Pop-up */}
+          {preview && (
+            <div
+              ref={popRef}
+              className="popover"
+              style={{ left: preview.x, top: preview.y }}
+              role="dialog"
+              aria-label={`Infos zu ${preview.name}`}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="popover-head">
+                <strong>{preview.name}</strong>
+                <span className="muted">{preview.iso || "—"}</span>
               </div>
-            ) : null}
-          </div>
+
+              <div className="popover-row">
+                <span className="muted">Staatsform</span>
+                <span>{preview.gov}</span>
+              </div>
+              <div className="popover-row">
+                <span className="muted">Gehalt vs. DE</span>
+                <span>{preview.incomePct != null ? `${preview.incomePct}%` : "—"}</span>
+              </div>
+              <div className="popover-row">
+                <span className="muted">Sterberisiko</span>
+                <span>{preview.mortalityX != null ? `x${preview.mortalityX}` : "—"}</span>
+              </div>
+
+              <div className="popover-actions">
+                <button className="btn" onClick={() => setPreview(null)}>Schließen</button>
+              </div>
+            </div>
+          )}
+        </section>
+
+        {/* Panel (Zufallsinfo) – gleiche Breite, darunter */}
+        <aside className="panel" aria-live="polite">
+          {selectedCountry ? (
+            <>
+              <h3>🎉 Glückwunsch, es ist: {selectedCountry.Country_de}</h3>
+              <p className="muted">
+                Staatsform: {allGovernments?.[selectedCountry.ISO_A3]?.government_form_de ?? "—"}
+              </p>
+
+              <div className="stats">
+                <div className="stat">
+                  <div className="label">Gehalt vs. DE</div>
+                  <div className="value">{selectedIncome ? `${selectedIncome}%` : "—"}</div>
+                  <div className="meter" aria-hidden>
+                    <i style={{ width: `${Math.min(selectedIncome, 100)}%` }} />
+                  </div>
+                </div>
+                <div className="stat">
+                  <div className="label">Sterberisiko bei Geburt</div>
+                  <div className="value">{selectedChildMortality ? `x${selectedChildMortality}` : "—"}</div>
+                  <div className="meter" aria-hidden>
+                    <i style={{ width: `${Math.min(selectedChildMortality * 4, 100)}%` }} />
+                  </div>
+                </div>
+              </div>
+
+              <Projects iso_a3={selectedCountry.ISO_A3} />
+            </>
+          ) : (
+            <p className="muted">Klick auf <strong>„Nächstes Leben..“</strong>, um zu würfeln.</p>
+          )}
         </aside>
       </main>
     </div>
