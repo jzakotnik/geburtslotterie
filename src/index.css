@@ -1,17 +1,17 @@
 :root{
-  --bg: #0b1420;
+  --bg: #20110b; /* wird zur Laufzeit via applyKfWTheme überschrieben */
   --bg-soft: #0f1b2a;
-  --panel: rgba(255,255,255,0.06);
-  --panel-elev: rgba(255,255,255,0.08);
-  --border: rgba(255,255,255,0.12);
+  --panel: rgba(239, 149, 149, 0.06);
+  --panel-elev: rgba(255, 255, 255, 0.08);
+  --border: rgba(255, 255, 255, 0.12);
   --txt: #e7edf3;
-  --muted:#a8b3bf;
+  --muted:#a8b3bf; 
   --primary:#4f7cff;
-  --accent:#ff7d5a;
-  --success:#46d39a;
+  --accent:#4c1a9b; 
+  --success:#46d39a; 
   --radius: 16px;
   --shadow: 0 10px 30px rgba(0,0,0,.25);
-  --content: 960px; /* zentrale Breite für Map & Panel */
+  --content: 960px;
 }
 :root[data-theme="light"]{
   --bg: #f7f8fb;
@@ -74,7 +74,7 @@ body{
 .main{
   display:flex;
   flex-direction:column;
-  align-items:center;   /* zentriert Kinder horizontal */
+  align-items:center;
   gap:16px;
 }
 
@@ -95,7 +95,7 @@ body{
 }
 :root[data-theme="light"] .mapWrap{ background: #fff; }
 
-/* panel (nicht sticky in der Spalte) */
+/* panel */
 .panel{
   position: static;
   background: var(--panel);
@@ -111,7 +111,7 @@ body{
 /* stats & projects */
 .stats{ display:grid; grid-template-columns: 1fr 1fr; gap:12px; margin-top:12px; }
 .stat{ border:1px solid var(--border); border-radius:12px; padding:12px; }
-.stat .label{ font-size:12px; color:var(--muted); }
+.stat .label{ font-size:12px; color: var(--muted); }
 .stat .value{ font-size:22px; font-weight:700; }
 
 .meter{ height:6px; border-radius:6px; background: var(--panel); overflow:hidden; margin-top:6px; }
@@ -146,12 +146,12 @@ body{
 }
 .menu-item{
   display:flex; align-items:center; gap:8px; width:100%;
-  background:transparent; border:none; color:var(--txt); text-decoration:none;
+  background:transparent; border:none; color: var(--txt); text-decoration:none;
   padding:8px 10px; border-radius:10px; cursor:pointer;
 }
 .menu-item:hover{ background: var(--panel); }
 
-/* tooltip (falls du sie irgendwann wieder nutzt) */
+/* tooltip */
 .tooltip{
   position: fixed; pointer-events:none; z-index: 40;
   background: var(--bg-soft); color: var(--txt);
@@ -166,7 +166,7 @@ body{
 .map-country{ stroke:#8aa; stroke-width:.6; }
 .map-country:hover{ filter: brightness(1.06); }
 
-/* Popover für Länderklick */
+/* Popover */
 .popover{
   position: fixed;
   transform: translateY(8px);

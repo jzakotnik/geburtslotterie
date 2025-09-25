@@ -1,5 +1,7 @@
 import { Moon, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
+// Wenn du TS nutzt: from "../kfwTheme"; bei JS: from "../kfwTheme.js"
+import { applyKfWTheme } from "../kfwTheme";
 
 function getInitialTheme() {
   const saved = localStorage.getItem("theme");
@@ -13,6 +15,7 @@ export default function ThemeToggle() {
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
     localStorage.setItem("theme", theme);
+    applyKfWTheme(theme); // ← KfW-Tokens auf deine CSS-Variablen schreiben
   }, [theme]);
 
   return (

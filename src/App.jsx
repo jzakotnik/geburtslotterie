@@ -7,6 +7,8 @@ import Projects from "./components/Projects";
 import StyledButton from "./components/StyledButton";
 import ThemeToggle from "./components/ThemeToggle";
 import ActionsMenu from "./components/ActionsMenu";
+// ✅ Neu: Theme initial anwenden, falls Nutzer nie klickt
+import { applyKfWTheme } from "./kfwTheme";
 
 const Layout = () => {
   // Daten
@@ -24,6 +26,19 @@ const Layout = () => {
   // Klick-Pop-up (ändert Panel NICHT)
   const [preview, setPreview] = useState(null); // { x,y,name,iso,gov,incomePct,mortalityX }
   const popRef = useRef(null);
+
+  // ✅ Neu: Theme beim App-Start anwenden
+  useEffect(() => {
+    const saved = localStorage.getItem("theme");
+    const initial =
+      saved === "light" || saved === "dark"
+        ? saved
+        : window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light";
+    document.documentElement.setAttribute("data-theme", initial);
+    applyKfWTheme(initial);
+  }, []);
 
   // Daten laden
   useEffect(() => {
@@ -166,9 +181,9 @@ const Layout = () => {
                         className="map-country"
                         onClick={(e) => handleCountryClick(e, geo)}
                         style={{
-                          default: { fill: isSelected ? "#4f7cff" : "#bfc7d1", outline: "none", stroke: "#8aa" },
-                          hover:   { fill: isSelected ? "#4f7cff" : "#d6dde6", outline: "none" },
-                          pressed: { fill: "#aac0ff", outline: "none" },
+                          default: { fill: isSelected ? "var(--primary)" : "#bfc7d1", outline: "none", stroke: "#8aa" },
+                          hover:   { fill: isSelected ? "var(--primary)" : "#d6dde6", outline: "none" },
+                          pressed: { fill: "color-mix(in oklab, var(--primary), white 35%)", outline: "none" },
                         }}
                       />
                     );
