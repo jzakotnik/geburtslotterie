@@ -189,3 +189,57 @@ body{
 }
 .popover-row:last-child{ border-bottom: none; }
 .popover-actions{ display:flex; justify-content:flex-end; gap:8px; margin-top:10px; }
+
+/* ============================================================
+   RESPONSIVE / MOBILE
+   ============================================================ */
+
+/* Tablet and down: tighten spacing, shrink the map's fixed height */
+@media (max-width: 860px){
+  .app{ padding:14px 16px; }
+  .mapWrap{ min-height: 420px; }
+}
+
+/* Phones: stack the header, single-column stats, full-width popover */
+@media (max-width: 640px){
+  .app{ padding:12px; gap:12px; }
+
+  /* Header wraps to two rows instead of squeezing brand + actions together */
+  .header{
+    flex-wrap: wrap;
+    padding: 10px;
+    row-gap: 10px;
+  }
+  .brand{ flex: 1 1 auto; min-width: 0; }
+  .brand .title{ font-size:15px; }
+  .brand .subtitle{ font-size:12px; white-space: normal; }
+  .header-right{
+    flex: 1 1 100%;
+    justify-content: space-between;
+  }
+
+  /* Primary roll button shrinks a bit so it never forces horizontal scroll */
+  .btn{ padding:9px 12px; font-size:14px; }
+
+  /* Map gets shorter on small viewports; SVG stays responsive via viewBox */
+  .mapWrap{ min-height: 300px; padding: 8px; }
+
+  /* Stats: two cramped columns -> one readable column */
+  .stats{ grid-template-columns: 1fr; }
+
+  /* Panel padding trimmed to match narrower viewport */
+  .panel{ padding: 16px; }
+
+  /* Popover: cap width to the viewport instead of a fixed 280px so it
+     can't overflow off-screen on narrow phones */
+  .popover{ max-width: calc(100vw - 24px); }
+
+  /* Larger touch targets (≥44px) for icon buttons on touch devices */
+  .iconBtn{ width:44px; height:44px; }
+  .menu-item{ padding:10px 12px; }
+}
+
+/* Very small phones: drop the subtitle entirely to keep the header on one row-ish */
+@media (max-width: 380px){
+  .brand .subtitle{ display:none; }
+}

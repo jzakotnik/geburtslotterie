@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useLayoutEffect, useState, useRef } from "react";
 import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 import { getBirthData } from "./utils/getBirthData";
 import { diceRoll } from "./utils/diceRoll";
@@ -108,6 +108,29 @@ const Layout = () => {
     };
   }, [preview]);
 
+  // Popover an den sichtbaren Viewport klemmen, damit sie nie am Rand
+  // (z.B. rechter/unterer Bildschirmrand, kleine Handys) abgeschnitten wird.
+  useLayoutEffect(() => {
+    if (!preview || !popRef.current) return;
+    const el = popRef.current;
+    const margin = 8;
+
+    // Erstmal an der gewünschten Klick-Position rendern, damit wir die
+    // tatsächliche Größe der Popover messen können.
+    el.style.left = `${preview.x}px`;
+    el.style.top = `${preview.y}px`;
+
+    const rect = el.getBoundingClientRect();
+    const maxX = window.innerWidth - rect.width - margin;
+    const maxY = window.innerHeight - rect.height - margin;
+
+    const clampedX = Math.min(Math.max(preview.x, margin), Math.max(margin, maxX));
+    const clampedY = Math.min(Math.max(preview.y, margin), Math.max(margin, maxY));
+
+    el.style.left = `${clampedX}px`;
+    el.style.top = `${clampedY}px`;
+  }, [preview]);
+
   // Map-Klick → Pop-up füllen (Panel bleibt unberührt)
   const handleCountryClick = (e, geo) => {
     e.stopPropagation(); // verhindert sofortiges Schließen
@@ -166,9 +189,12 @@ const Layout = () => {
                         className="map-country"
                         onClick={(e) => handleCountryClick(e, geo)}
                         style={{
-                          default: { fill: isSelected ? "#4f7cff" : "#bfc7d1", outline: "none", stroke: "#8aa" },
-                          hover:   { fill: isSelected ? "#4f7cff" : "#d6dde6", outline: "none" },
-                          pressed: { fill: "#aac0ff", outline: "none" },
+                          /* Ausgewähltes Land folgt jetzt --primary, passt sich
+                             also automatisch an Light/Dark-Theme an, statt
+                             einen festen Hex-Wert zu benutzen. */
+                          default: { fill: isSelected ? "var(--primary)" : "#bfc7d1", outline: "none", stroke: "#8aa" },
+                          hover:   { fill: isSelected ? "var(--primary)" : "#d6dde6", outline: "none" },
+                          pressed: { fill: "color-mix(in oklab, var(--primary), white 30%)", outline: "none" },
                         }}
                       />
                     );
